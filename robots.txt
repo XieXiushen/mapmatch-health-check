@@ -1,0 +1,37 @@
+# robots.txt — 国产算力站点 r40（r41 GEO 引用层）
+# Allow LLM/retrieval crawlers so the site can be cited（AI 直取器显式放行）
+User-agent: *
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: CCBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Disallow SEO/backlink crawlers（反链与 SEO 采集器拒绝）
+User-agent: AhrefsBot
+Disallow: /
+User-agent: SemrushBot
+Disallow: /
+User-agent: MJ12Bot
+Disallow: /
+User-agent: DotBot
+Disallow: /
+User-agent: BLEXBot
+Disallow: /
+
+Sitemap: https://xiexiushen.github.io/mapmatch-health-check/sitemap.xml

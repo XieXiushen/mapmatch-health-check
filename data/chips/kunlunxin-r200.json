@@ -1,0 +1,291 @@
+{
+  "category": "训练/推理",
+  "field_count": 33,
+  "fields": {
+    "architecture": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.kunlunxin.com/product/2873.html",
+      "unit": "n/a",
+      "value": "自研昆仑芯 XPU 架构"
+    },
+    "bf16_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "category": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "训练/推理"
+    },
+    "certification": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "本批次安全可靠 I 级名单未含昆仑芯"
+    },
+    "cuda_compat": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "提供 CUDA 兼容适配（页面含 CUDA 兼容性条目，未给量化）"
+    },
+    "custom_op": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "form_factor": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp16_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "TFLOPS",
+      "value": "128"
+    },
+    "fp32_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "TFLOPS",
+      "value": "32"
+    },
+    "fp64_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp8_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "framework_support": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "host_interface": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "PCIe Gen4 x16"
+    },
+    "inference_engine": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.kunlunxin.com/product/2873.html",
+      "unit": "n/a",
+      "value": "vLLM（vLLM-Kunlun 后端）"
+    },
+    "int16_tops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "TOPS",
+      "value": "128"
+    },
+    "int8_tops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "TOPS",
+      "value": "256"
+    },
+    "interconnect_bw": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "launch_date": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "memory_bandwidth": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "GB/s",
+      "value": "512"
+    },
+    "memory_capacity": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "GB",
+      "value": "16/32"
+    },
+    "memory_type": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "GDDR6"
+    },
+    "migration_tool": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "提供模型迁移工具（页面提及，未给出名称）"
+    },
+    "missing_ops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "model": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "昆仑芯R200（R200）"
+    },
+    "operator_coverage": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "operator_lib": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "process_node": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "7nm"
+    },
+    "programming_model": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "series": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.kunlunxin.com/product/2873.html",
+      "unit": "n/a",
+      "value": "昆仑芯（第二代）"
+    },
+    "software_stack": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "昆仑芯自研软件栈 + vLLM 后端（vLLM-Kunlun）"
+    },
+    "target_workload": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "推理为主（INT8 256 TOPS）"
+    },
+    "tdp": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "W",
+      "value": "150"
+    },
+    "vendor": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
+      "unit": "n/a",
+      "value": "昆仑芯（北京）科技有限公司"
+    }
+  },
+  "keywords": [
+    "昆仑芯R200",
+    "昆仑芯",
+    "r200",
+    "kunlunxin",
+    "训练/推理",
+    "7nm",
+    "自研昆仑芯 XPU 架构",
+    "GDDR6",
+    "vLLM（vLLM-Kunlun 后端）",
+    "国产AI芯片",
+    "AI加速卡",
+    "芯片规格",
+    "算力规格库"
+  ],
+  "model": "昆仑芯R200",
+  "model_slug": "r200",
+  "schema_version": "0.1",
+  "series": "昆仑芯",
+  "vendor": "昆仑芯",
+  "vendor_slug": "kunlunxin"
+}

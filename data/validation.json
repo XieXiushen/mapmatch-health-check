@@ -1,0 +1,132 @@
+{
+ "schema_version": "0.1",
+ "validator": "tools/validate.py",
+ "sources_registered": 29,
+ "archived_raw": 29,
+ "archived_bytes": 2885369,
+ "orphan_sources": [],
+ "chips": [
+  {
+   "file": "data/chips/cambricon-mlu370-x8.json",
+   "model": "思元370-X8",
+   "vendor": "寒武纪",
+   "model_slug": "mlu370-x8",
+   "vendor_slug": "cambricon",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/cambricon-mlu590.json",
+   "model": "思元590",
+   "vendor": "寒武纪",
+   "model_slug": "mlu590",
+   "vendor_slug": "cambricon",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/huawei-ascend-910b.json",
+   "model": "昇腾910B",
+   "vendor": "华为",
+   "model_slug": "ascend-910b",
+   "vendor_slug": "huawei",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/huawei-ascend-910c.json",
+   "model": "昇腾910C",
+   "vendor": "华为",
+   "model_slug": "ascend-910c",
+   "vendor_slug": "huawei",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/hygon-dcu-k100.json",
+   "model": "海光DCU K100",
+   "vendor": "海光",
+   "model_slug": "dcu-k100",
+   "vendor_slug": "hygon",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/iluvatar-tiangai-100.json",
+   "model": "天垓100",
+   "vendor": "天数智芯",
+   "model_slug": "tiangai-100",
+   "vendor_slug": "iluvatar",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/iluvatar-tiangai-150.json",
+   "model": "天垓150",
+   "vendor": "天数智芯",
+   "model_slug": "tiangai-150",
+   "vendor_slug": "iluvatar",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/iluvatar-zhikai-100.json",
+   "model": "智铠100",
+   "vendor": "天数智芯",
+   "model_slug": "zhikai-100",
+   "vendor_slug": "iluvatar",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/kunlunxin-p800.json",
+   "model": "昆仑芯P800",
+   "vendor": "昆仑芯",
+   "model_slug": "p800",
+   "vendor_slug": "kunlunxin",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/kunlunxin-r200.json",
+   "model": "昆仑芯R200",
+   "vendor": "昆仑芯",
+   "model_slug": "r200",
+   "vendor_slug": "kunlunxin",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/mthreads-mtt-s4000.json",
+   "model": "MTT S4000",
+   "vendor": "摩尔线程",
+   "model_slug": "mtt-s4000",
+   "vendor_slug": "mthreads",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "file": "data/chips/mthreads-mtt-s5000.json",
+   "model": "MTT S5000",
+   "vendor": "摩尔线程",
+   "model_slug": "mtt-s5000",
+   "vendor_slug": "mthreads",
+   "field_count": 33,
+   "ok": true,
+   "errors": []
+  }
+ ],
+ "passed": 12,
+ "failed": 0
+}

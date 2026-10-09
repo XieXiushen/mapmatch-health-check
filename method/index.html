@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>方法与纪律 · 国产算力站点 r40</title>
+<meta name="description" content="方法与纪律：数据管道、校验规则、口径说明，以及 r41 GEO 引用层（robots / sitemap / 开放数据集 / 字段级 SEO）。">
+<style>body{font:15px/1.7 -apple-system,Segoe UI,Microsoft YaHei,sans-serif;max-width:1120px;margin:0 auto;padding:20px;color:#1c1c1e}h1{font-size:22px}h2{font-size:18px;margin-top:28px;border-bottom:1px solid #ddd;padding-bottom:4px}nav{font-size:13px;color:#666;margin-bottom:18px}table{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0}th,td{border:1px solid #ddd;padding:5px 8px;text-align:left;vertical-align:top}th{background:#f5f5f7}code{background:#f5f5f7;padding:1px 4px;border-radius:3px;font-size:12px}.warn{color:#a33}.muted{color:#777;font-size:12.5px}a{color:#0a63c2;text-decoration:none}a:hover{text-decoration:underline}</style>
+</head>
+<body>
+<nav><a href="/">首页</a> · <a href="/chips/">芯片卡片</a> · <a href="/stacks/">软件栈</a> · <a href="/operators/">算子生态</a> · <a href="/verdict/">结论</a> · <a href="/dataset/">数据集</a> · <a href="/sources/">来源</a> · <a href="/method/">方法</a></nav>
+<h1>方法与纪律</h1>
+<h2>数据管道</h2><ol><li>归档原文到 <code>raw/</code>（URL 只归档，不改写、不解析）；<code>tools/collect/sources.json</code> 登记 slug→URL。</li><li>抽取：<code>tools/collect/extract.py</code> 对 raw/*.html 去标签 + 关键词过滤，落 <code>temp/digest.txt</code> 供人工核对（不做数值改写）。</li><li>回填：人工核对后写入 <code>data/chips/*.json</code>；每字段 source_url 指回 raw/ 已归档来源。</li><li>校验：<code>tools/validate.py</code>（详见下）。</li><li>渲染：<code>tools/build.py</code> 仅渲染通过校验的卡片。</li></ol>
+<h2>校验规则</h2><p>R1 结构(≥25 字段且六键齐全)；R2 非空；R3 日期格式；R4 置信枚举；R5 来源可追溯(source_url 命中 sources.json 且 raw/&lt;slug&gt;.html 存在)；R6 数字字段必须带单位；R7 冲突登记完整且 conflict_with 可追溯。</p><p class="warn">边界：校验器保证“已登记项的完整与可追溯”，不保证“冲突发现的覆盖度”——后者依赖人工检索登记，属已知局限。</p>
+<h2>口径说明</h2><p>source_date 对动态产品页/规格站取「归档取得日」(2026-10-09)；对安全可靠认证公告取「公告发布日」(2026-05-26)。confidence: verified=≥2 个已归档来源一致；single-source=单一已归档来源；unverified=公开口径未给出（值为“未公开”）。</p>
+<h2>本次校验结果</h2><p>通过 12 / 失败 0；归档来源 29 页 2885369 字节；sources.json 登记 29 条。</p>
+<h2>GEO 引用层（r41）</h2><ol><li>robots.txt：对 9 个 AI/检索直取器（GPTBot / ChatGPT-User / ClaudeBot / PerplexityBot 等）逐条显式 Allow；对 5 个 SEO/反链采集器（AhrefsBot / SemrushBot 等）Disallow；并附 Sitemap 指令。</li><li>sitemap.xml：由构建器按实际页面树生成，&lt;loc&gt; 条数 = 页面数（见页脚构建号与本页 [6] 核对）。</li><li>dataset/chips.json：开放数据集导出（单一事实源 = data/chips/*.json），许可 CC BY 4.0；引用格式见 <a href="/dataset/">数据集页</a>。</li><li>字段级 SEO：每页 &lt;title&gt;/&lt;meta description&gt; 由数据生成；型号页另含数据推导的 &lt;meta keywords&gt;（源自 data/chips/*.json 的 keywords 字段）。</li></ol><p class="muted">量口径唯一来源：型号数、厂商数、字段数均取自 data/chips/*.json，页面内数字一律由构建器注入，不手写。</p>
+<h2>更新节奏与引用版本</h2><p>本数据集为人工核验的静态快照、非实时；随迭代批次发布，批次号见页脚构建号（当前 <code>r40-v0.2-geo</code>）。来源归档 <code>raw/</code> 仅存于工作副本、不随站点发布（版权与商业敏感）；线上可回指的是字段级 source_url 与来源台账 sha256。</p>
+<hr><p class="muted">构建: r40-v0.2-geo · 数据来源见 <a href="/sources/">来源页</a> · 构建器 tools/build.py（确定性输出）</p>
+</body>
+</html>

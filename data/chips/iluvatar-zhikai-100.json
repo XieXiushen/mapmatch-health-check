@@ -1,0 +1,292 @@
+{
+  "category": "推理（训推一体）",
+  "field_count": 33,
+  "fields": {
+    "architecture": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "天数智芯第二代通用 GPU 架构（800 余条通用指令集）"
+    },
+    "bf16_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "category": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "推理（支持推理及训练一体化）"
+    },
+    "certification": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "KCC-V100X 芯片已入安全可靠 I 级（智铠100 本身未单列）"
+    },
+    "cuda_compat": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "延续天垓100 生态兼容策略，开箱即用"
+    },
+    "custom_op": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "便于客户自定义开发（灵活支持各种算法模型）"
+    },
+    "form_factor": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "产品卡（视频解码 + 推理）"
+    },
+    "fp16_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "TFLOPS",
+      "value": "96"
+    },
+    "fp32_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "TFLOPS",
+      "value": "24"
+    },
+    "fp64_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp8_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "framework_support": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "支持国内外主流深度学习开发框架"
+    },
+    "host_interface": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "inference_engine": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int16_tops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int8_tops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "TOPS",
+      "value": "384"
+    },
+    "interconnect_bw": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "launch_date": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "memory_bandwidth": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "GB/s",
+      "value": "800（理论峰值）"
+    },
+    "memory_capacity": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "memory_type": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "migration_tool": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "延续天垓100 开发易迁移特点"
+    },
+    "missing_ops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "model": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "智铠100"
+    },
+    "operator_coverage": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "operator_lib": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "高性能函数库（丰富编程接口拓展）"
+    },
+    "process_node": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "programming_model": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "通用 GPU 编程（800 余条通用指令集）"
+    },
+    "series": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "智铠（第二代通用 GPU 架构）"
+    },
+    "software_stack": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "天数智芯自研软件栈（延续天垓100 生态兼容策略）"
+    },
+    "target_workload": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "智慧城市/港口/交通/制造/电力/语音/医疗/教育/金融等推理+增量训练"
+    },
+    "tdp": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "vendor": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "上海天数智芯半导体股份有限公司"
+    }
+  },
+  "keywords": [
+    "智铠100",
+    "天数智芯",
+    "智铠",
+    "zhikai-100",
+    "iluvatar",
+    "推理（支持推理及训练一体化）",
+    "产品卡（视频解码 + 推理）",
+    "通用 GPU 编程（800 余条通用指令集）",
+    "支持国内外主流深度学习开发框架",
+    "高性能函数库（丰富编程接口拓展）",
+    "国产AI芯片",
+    "AI加速卡",
+    "芯片规格",
+    "算力规格库"
+  ],
+  "model": "智铠100",
+  "model_slug": "zhikai-100",
+  "schema_version": "0.1",
+  "series": "智铠",
+  "vendor": "天数智芯",
+  "vendor_slug": "iluvatar"
+}

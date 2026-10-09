@@ -1,0 +1,292 @@
+{
+  "category": "训练/推理（通用 GPU）",
+  "field_count": 33,
+  "fields": {
+    "architecture": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "自研通用 GPU 架构（自研指令集，支持标量/矢量/张量运算）"
+    },
+    "bf16_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "category": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "训练/推理（通用 GPU，训推通用）"
+    },
+    "certification": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "KCC-V100X 芯片已入安全可靠 I 级（天垓100 本身未单列）"
+    },
+    "cuda_compat": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "兼容国际主流 GPU 通用计算模型，支持原生算子"
+    },
+    "custom_op": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "提供丰富编程接口拓展，支持客户自定义开发"
+    },
+    "form_factor": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "加速卡（PCIe Gen4 x16）"
+    },
+    "fp16_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "TFLOPS",
+      "value": "128"
+    },
+    "fp32_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp64_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp8_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "framework_support": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "支持国内外主流深度学习框架与加速库"
+    },
+    "host_interface": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "PCIe Gen4.0 x16"
+    },
+    "inference_engine": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int16_tops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int8_tops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "TOPS",
+      "value": "256"
+    },
+    "interconnect_bw": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "GB/s",
+      "value": "64（片间互联，双向）"
+    },
+    "launch_date": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "memory_bandwidth": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "memory_capacity": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "GB",
+      "value": "32"
+    },
+    "memory_type": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "HBM2"
+    },
+    "migration_tool": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "应用迁移成本低、无需重新开发；适配 x86/Arm/MIPS 等多类 CPU 架构"
+    },
+    "missing_ops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "model": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "天垓100（BI-V100）"
+    },
+    "operator_coverage": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "种",
+      "value": "支持 200 余种 AI 模型（数量持续增加）"
+    },
+    "operator_lib": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "自研核心算子库 + 高性能函数库（智铠/天垓同源）"
+    },
+    "process_node": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "programming_model": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "通用 GPU 编程模型（自研指令集）"
+    },
+    "series": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "天垓（通用 GPU 架构，BI-V100）"
+    },
+    "software_stack": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "自研软件栈（核心 IP/系统架构/指令集/核心算子均由天数团队开发）"
+    },
+    "target_workload": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "通用计算/科学计算/大模型训练（百亿级参数已验证）"
+    },
+    "tdp": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "W",
+      "value": "250"
+    },
+    "vendor": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "上海天数智芯半导体股份有限公司"
+    }
+  },
+  "keywords": [
+    "天垓100",
+    "天数智芯",
+    "天垓",
+    "tiangai-100",
+    "iluvatar",
+    "训练/推理（通用 GPU，训推通用）",
+    "加速卡（PCIe Gen4 x16）",
+    "HBM2",
+    "通用 GPU 编程模型（自研指令集）",
+    "支持国内外主流深度学习框架与加速库",
+    "国产AI芯片",
+    "AI加速卡",
+    "芯片规格",
+    "算力规格库"
+  ],
+  "model": "天垓100",
+  "model_slug": "tiangai-100",
+  "schema_version": "0.1",
+  "series": "天垓",
+  "vendor": "天数智芯",
+  "vendor_slug": "iluvatar"
+}

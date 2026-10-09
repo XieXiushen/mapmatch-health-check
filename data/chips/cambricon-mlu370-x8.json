@@ -1,0 +1,297 @@
+{
+  "category": "训练/推理",
+  "field_count": 33,
+  "fields": {
+    "architecture": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "MLUarch03（第三代 MLU 架构）"
+    },
+    "bf16_tflops": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "note": "【参考·非本卡冲突】48 TFLOPS-该页早期误记，已更正（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "TFLOPS",
+      "value": "96"
+    },
+    "category": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "训练/推理"
+    },
+    "certification": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "本批次安全可靠 I 级名单未含寒武纪"
+    },
+    "cuda_compat": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "Bang C（寒武纪 CUDA 兼容编程语言，CUDA 代码可低成本迁移）"
+    },
+    "custom_op": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "form_factor": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp16_tflops": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "TFLOPS",
+      "value": "96"
+    },
+    "fp32_tflops": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "note": "【参考·非本卡冲突】48 TFLOPS-该页早期误记，已更正（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "TFLOPS",
+      "value": "24"
+    },
+    "fp64_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp8_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "framework_support": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "host_interface": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "inference_engine": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int16_tops": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "TOPS",
+      "value": "128"
+    },
+    "int8_tops": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "note": "【参考·非本卡冲突】96 TOPS-该页早期误记，已更正为 256（寒武纪官网实锤）（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "TOPS",
+      "value": "256"
+    },
+    "interconnect_bw": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "GB/s",
+      "value": "200（双向）"
+    },
+    "launch_date": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "memory_bandwidth": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "GB/s",
+      "value": "614.4"
+    },
+    "memory_capacity": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "GB",
+      "value": "48"
+    },
+    "memory_type": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "note": "【参考·非本卡冲突】HBM2 n/a-该页早期误记，已更正：思元370系列用 LPDDR5（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "LPDDR5"
+    },
+    "migration_tool": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "BANG C 迁移路径（CUDA 代码低成本迁移）"
+    },
+    "missing_ops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "model": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "思元370-X8（MLU370-X8）"
+    },
+    "operator_coverage": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "operator_lib": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "CNBL / CNCL（NeuWare SDK 内）"
+    },
+    "process_node": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "7nm"
+    },
+    "programming_model": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "BANG C 2.0"
+    },
+    "series": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "思元 MLU（MLUarch03 第三代）"
+    },
+    "software_stack": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+      "unit": "n/a",
+      "value": "Bangware 软件栈 + NeuWare SDK（CNRT 运行时 + CNBL/CNCL 算子库 + 编译器）"
+    },
+    "target_workload": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "训练/推理（通用）"
+    },
+    "tdp": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "note": "【参考·非本卡冲突】35 W-该页早期误记，已更正（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "W",
+      "value": "250"
+    },
+    "vendor": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "unit": "n/a",
+      "value": "寒武纪（Cambricon）"
+    }
+  },
+  "keywords": [
+    "思元370-X8",
+    "寒武纪",
+    "思元 MLU",
+    "mlu370-x8",
+    "cambricon",
+    "训练/推理",
+    "7nm",
+    "MLUarch03（第三代 MLU 架构）",
+    "LPDDR5",
+    "BANG C 2.0",
+    "国产AI芯片",
+    "AI加速卡",
+    "芯片规格",
+    "算力规格库"
+  ],
+  "model": "思元370-X8",
+  "model_slug": "mlu370-x8",
+  "schema_version": "0.1",
+  "series": "思元 MLU",
+  "vendor": "寒武纪",
+  "vendor_slug": "cambricon"
+}

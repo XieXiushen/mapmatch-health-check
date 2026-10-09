@@ -1,0 +1,293 @@
+{
+  "category": "训练/推理（通用 GPU，升级版）",
+  "field_count": 33,
+  "fields": {
+    "architecture": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "天数智芯自研通用 GPU 架构（天垓100 升级版）"
+    },
+    "bf16_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "category": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "训练/推理（升级版通用 GPU）"
+    },
+    "certification": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "KCC-V100X 芯片已入安全可靠 I 级（天垓150 本身未单列）"
+    },
+    "cuda_compat": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "兼容国际主流 GPU 通用计算模型"
+    },
+    "custom_op": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "form_factor": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp16_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "note": "【参考·非本卡冲突】128（天垓100 现役口径） TFLOPS-前代值（https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/）",
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "TFLOPS",
+      "value": "未公开（推测 150-200）"
+    },
+    "fp32_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp64_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp8_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "framework_support": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "国内外主流深度学习框架"
+    },
+    "host_interface": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "PCIe Gen4（推测）"
+    },
+    "inference_engine": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int16_tops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int8_tops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "note": "【参考·非本卡冲突】256（天垓100 现役口径） TOPS-前代值（https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/）",
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "TOPS",
+      "value": "未公开（推测 300-400）"
+    },
+    "interconnect_bw": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "launch_date": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "memory_bandwidth": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开（相较前代有提升）"
+    },
+    "memory_capacity": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "GB",
+      "value": "推测 32-64"
+    },
+    "memory_type": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "推测 HBM2/HBM3"
+    },
+    "migration_tool": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "missing_ops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "model": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "天垓150"
+    },
+    "operator_coverage": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "operator_lib": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "支持国内外主流 AI 生态与深度学习框架及原生算子"
+    },
+    "process_node": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "programming_model": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "series": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "天垓（天垓100 升级版）"
+    },
+    "software_stack": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "天数智芯自研软件栈（与天垓100 同源）"
+    },
+    "target_workload": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "大规模 AI 训练与复杂计算"
+    },
+    "tdp": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "vendor": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+      "unit": "n/a",
+      "value": "上海天数智芯半导体股份有限公司"
+    }
+  },
+  "keywords": [
+    "天垓150",
+    "天数智芯",
+    "天垓",
+    "tiangai-150",
+    "iluvatar",
+    "训练/推理（升级版通用 GPU）",
+    "推测 HBM2/HBM3",
+    "天数智芯自研软件栈（与天垓100 同源）",
+    "国内外主流深度学习框架",
+    "国产AI芯片",
+    "AI加速卡",
+    "芯片规格",
+    "算力规格库"
+  ],
+  "model": "天垓150",
+  "model_slug": "tiangai-150",
+  "schema_version": "0.1",
+  "series": "天垓",
+  "vendor": "天数智芯",
+  "vendor_slug": "iluvatar"
+}

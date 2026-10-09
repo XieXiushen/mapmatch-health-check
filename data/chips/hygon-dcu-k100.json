@@ -1,0 +1,316 @@
+{
+  "category": "训练/推理（GPGPU）",
+  "field_count": 33,
+  "fields": {
+    "architecture": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "GPGPU（x86 生态兼容 DCU 架构）"
+    },
+    "bf16_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "TFLOPS",
+      "value": "192"
+    },
+    "category": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "训练/推理（GPGPU）"
+    },
+    "certification": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "DCU-3G 已入安全可靠 I 级（K100 本身未单列）"
+    },
+    "cuda_compat": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "Z200 支持 CUDA 兼容优化"
+    },
+    "custom_op": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "form_factor": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp16_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [
+        {
+          "note": "同页另列 96，疑为 K100-AI/其他型号口径",
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+          "unit": "TFLOPS",
+          "value": "96"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "TFLOPS",
+      "value": "192"
+    },
+    "fp32_tflops": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "TFLOPS",
+      "value": "49"
+    },
+    "fp64_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [
+        {
+          "note": "型号口径不同",
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+          "unit": "TFLOPS",
+          "value": "约10（深算 Z100 口径）"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "TFLOPS",
+      "value": "24.5（标准版 K100）"
+    },
+    "fp8_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "framework_support": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "主流深度学习框架（DTK 生态）"
+    },
+    "host_interface": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "PCIe 4.0"
+    },
+    "inference_engine": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int16_tops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int8_tops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "TOPS",
+      "value": "392"
+    },
+    "interconnect_bw": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "launch_date": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "memory_bandwidth": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "GB/s",
+      "value": "896"
+    },
+    "memory_capacity": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "GB",
+      "value": "64"
+    },
+    "memory_type": {
+      "confidence": "single-source",
+      "conflict_with": [
+        {
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+          "unit": "n/a",
+          "value": "HBM2"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "HBM2e"
+    },
+    "migration_tool": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "missing_ops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "model": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "海光DCU K100（K100-AI）"
+    },
+    "operator_coverage": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "operator_lib": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "process_node": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "programming_model": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "类 ROCm/HIP 编程模型"
+    },
+    "series": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "深算 DCU"
+    },
+    "software_stack": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
+      "unit": "n/a",
+      "value": "DTK 3.0（兼容 ROCm 生态）"
+    },
+    "target_workload": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "国产大模型训练与推理"
+    },
+    "tdp": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "W",
+      "value": "约300"
+    },
+    "vendor": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "海光信息技术股份有限公司"
+    }
+  },
+  "keywords": [
+    "海光DCU K100",
+    "海光",
+    "深算 DCU",
+    "dcu-k100",
+    "hygon",
+    "训练/推理（GPGPU）",
+    "GPGPU（x86 生态兼容 DCU 架构）",
+    "HBM2e",
+    "DTK 3.0（兼容 ROCm 生态）",
+    "类 ROCm/HIP 编程模型",
+    "主流深度学习框架（DTK 生态）",
+    "国产AI芯片",
+    "AI加速卡",
+    "芯片规格",
+    "算力规格库"
+  ],
+  "model": "海光DCU K100",
+  "model_slug": "dcu-k100",
+  "schema_version": "0.1",
+  "series": "深算 DCU",
+  "vendor": "海光",
+  "vendor_slug": "hygon"
+}

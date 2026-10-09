@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>算子库与迁移 · 国产算力站点 r40</title>
+<meta name="description" content="国产 AI 芯片算子库与迁移对比：12 款芯片的算子覆盖、缺失算子与迁移工具。">
+<style>body{font:15px/1.7 -apple-system,Segoe UI,Microsoft YaHei,sans-serif;max-width:1120px;margin:0 auto;padding:20px;color:#1c1c1e}h1{font-size:22px}h2{font-size:18px;margin-top:28px;border-bottom:1px solid #ddd;padding-bottom:4px}nav{font-size:13px;color:#666;margin-bottom:18px}table{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0}th,td{border:1px solid #ddd;padding:5px 8px;text-align:left;vertical-align:top}th{background:#f5f5f7}code{background:#f5f5f7;padding:1px 4px;border-radius:3px;font-size:12px}.warn{color:#a33}.muted{color:#777;font-size:12.5px}a{color:#0a63c2;text-decoration:none}a:hover{text-decoration:underline}</style>
+</head>
+<body>
+<nav><a href="/">首页</a> · <a href="/chips/">芯片卡片</a> · <a href="/stacks/">软件栈</a> · <a href="/operators/">算子生态</a> · <a href="/verdict/">结论</a> · <a href="/dataset/">数据集</a> · <a href="/sources/">来源</a> · <a href="/method/">方法</a></nav>
+<h1>算子库与迁移</h1>
+<table><tr><th>型号</th><th>算子库</th><th>算子覆盖率</th><th>缺失算子</th><th>自定义算子</th><th>迁移工具</th></tr><tr><td><a href="/chip/cambricon-mlu370-x8/">思元370-X8</a></td><td>CNBL / CNCL（NeuWare SDK 内）</td><td>未公开</td><td>未公开</td><td>未公开</td><td>BANG C 迁移路径（CUDA 代码低成本迁移）</td></tr><tr><td><a href="/chip/cambricon-mlu590/">思元590</a></td><td>CNBL / CNCL（NeuWare SDK 内）</td><td>未公开</td><td>未公开</td><td>未公开</td><td>BANG C 迁移路径</td></tr><tr><td><a href="/chip/huawei-ascend-910b/">昇腾910B</a></td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td></tr><tr><td><a href="/chip/huawei-ascend-910c/">昇腾910C</a></td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td></tr><tr><td><a href="/chip/hygon-dcu-k100/">海光DCU K100</a></td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td></tr><tr><td><a href="/chip/iluvatar-tiangai-100/">天垓100</a></td><td>自研核心算子库 + 高性能函数库（智铠/天垓同源）</td><td>支持 200 余种 AI 模型（数量持续增加） <span class="muted">种</span></td><td>未公开</td><td>提供丰富编程接口拓展，支持客户自定义开发</td><td>应用迁移成本低、无需重新开发；适配 x86/Arm/MIPS 等多类 CPU 架构</td></tr><tr><td><a href="/chip/iluvatar-tiangai-150/">天垓150</a></td><td>支持国内外主流 AI 生态与深度学习框架及原生算子</td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td></tr><tr><td><a href="/chip/iluvatar-zhikai-100/">智铠100</a></td><td>高性能函数库（丰富编程接口拓展）</td><td>未公开</td><td>未公开</td><td>便于客户自定义开发（灵活支持各种算法模型）</td><td>延续天垓100 开发易迁移特点</td></tr><tr><td><a href="/chip/kunlunxin-p800/">昆仑芯P800</a></td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td></tr><tr><td><a href="/chip/kunlunxin-r200/">昆仑芯R200</a></td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td><td>提供模型迁移工具（页面提及，未给出名称）</td></tr><tr><td><a href="/chip/mthreads-mtt-s4000/">MTT S4000</a></td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td><td>未公开</td></tr><tr><td><a href="/chip/mthreads-mtt-s5000/">MTT S5000</a></td><td>未公开</td><td>约 70-80%（该页口径）</td><td>未公开（页面未列缺失清单）</td><td>未公开</td><td>未公开</td></tr></table>
+<hr><p class="muted">构建: r40-v0.2-geo · 数据来源见 <a href="/sources/">来源页</a> · 构建器 tools/build.py（确定性输出）</p>
+</body>
+</html>

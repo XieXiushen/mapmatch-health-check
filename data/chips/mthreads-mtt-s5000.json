@@ -1,0 +1,307 @@
+{
+  "category": "训练/推理（训推一体，旗舰）",
+  "field_count": 33,
+  "fields": {
+    "architecture": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "MUSA 统一架构（4096 个 MUSA Core）"
+    },
+    "bf16_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "TFLOPS",
+      "value": "400"
+    },
+    "category": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
+      "unit": "n/a",
+      "value": "训练/推理（训推一体，旗舰）"
+    },
+    "certification": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "PH100 已入安全可靠 I 级（S5000 本身未单列）"
+    },
+    "cuda_compat": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
+      "unit": "n/a",
+      "value": "MUSA/MUDA CUDA 兼容后端"
+    },
+    "custom_op": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "form_factor": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp16_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "TFLOPS",
+      "value": "400"
+    },
+    "fp32_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "TFLOPS",
+      "value": "100"
+    },
+    "fp64_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp8_tflops": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "TFLOPS",
+      "value": "1000"
+    },
+    "framework_support": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
+      "unit": "n/a",
+      "value": "摩尔线程高性能 FP8 训练框架（MUSA 生态）"
+    },
+    "host_interface": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "inference_engine": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
+      "unit": "n/a",
+      "value": "SGLang-MUSA-M1000 / vLLM-MUSA-M1000 / ONNXRuntime-MUSA-M1000"
+    },
+    "int16_tops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int8_tops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "interconnect_bw": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "launch_date": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
+      "unit": "n/a",
+      "value": "已规模量产（支持万亿参数大模型训练）"
+    },
+    "memory_bandwidth": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "GB/s",
+      "value": "1600"
+    },
+    "memory_capacity": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "GB",
+      "value": "80"
+    },
+    "memory_type": {
+      "confidence": "unverified",
+      "conflict_with": [
+        {
+          "note": "与 S5000 页「未公开/HBM 级」口径冲突",
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
+          "unit": "n/a",
+          "value": "GDDR6"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "官方未公开颗粒类型（1.6 TB/s 带宽为 HBM 级）"
+    },
+    "migration_tool": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "missing_ops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开（页面未列缺失清单）"
+    },
+    "model": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "MTT S5000"
+    },
+    "operator_coverage": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "约 70-80%（该页口径）"
+    },
+    "operator_lib": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "process_node": {
+      "confidence": "unverified",
+      "conflict_with": [
+        {
+          "note": "该页 12nm 与 48GB/16GB 规格同行，型号归属存疑",
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
+          "unit": "n/a",
+          "value": "12nm"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "TSMC 6nm（推测）"
+    },
+    "programming_model": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
+      "unit": "n/a",
+      "value": "MUSA 统一编程模型"
+    },
+    "series": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "MTT（MUSA 统一架构）"
+    },
+    "software_stack": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
+      "unit": "n/a",
+      "value": "MUSA 2.0 软件栈"
+    },
+    "target_workload": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
+      "unit": "n/a",
+      "value": "万亿参数大模型训练/推理（训推一体）"
+    },
+    "tdp": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "vendor": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "摩尔线程智能科技（北京）股份有限公司"
+    }
+  },
+  "keywords": [
+    "MTT S5000",
+    "摩尔线程",
+    "MTT",
+    "mtt-s5000",
+    "mthreads",
+    "训练/推理（训推一体，旗舰）",
+    "TSMC 6nm（推测）",
+    "MUSA 2.0 软件栈",
+    "MUSA 统一编程模型",
+    "国产AI芯片",
+    "AI加速卡",
+    "芯片规格",
+    "算力规格库"
+  ],
+  "model": "MTT S5000",
+  "model_slug": "mtt-s5000",
+  "schema_version": "0.1",
+  "series": "MTT",
+  "vendor": "摩尔线程",
+  "vendor_slug": "mthreads"
+}

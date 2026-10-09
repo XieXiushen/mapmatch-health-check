@@ -1,0 +1,335 @@
+{
+  "category": "训练/推理（训推一体）",
+  "field_count": 33,
+  "fields": {
+    "architecture": {
+      "confidence": "verified",
+      "conflict_with": [
+        {
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+          "unit": "n/a",
+          "value": "达芬奇 3D Cube"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "n/a",
+      "value": "达芬奇（Da Vinci）架构；双 die 封装（两颗 910B 级 die）"
+    },
+    "bf16_tflops": {
+      "confidence": "single-source",
+      "conflict_with": [
+        {
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+          "unit": "TFLOPS",
+          "value": "800"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "TFLOPS",
+      "value": "780"
+    },
+    "category": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "n/a",
+      "value": "训练/推理（双 die 封装训推一体）"
+    },
+    "certification": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-05-26",
+      "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
+      "unit": "n/a",
+      "value": "同厂商型号已入安全可靠 I 级（昇腾910、昇腾310）；910C 本身未单列"
+    },
+    "cuda_compat": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "非 CUDA 兼容路线（自研 CANN 生态）"
+    },
+    "custom_op": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "form_factor": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp16_tflops": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "TFLOPS",
+      "value": "800"
+    },
+    "fp32_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp64_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "fp8_tflops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "framework_support": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "host_interface": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "inference_engine": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.sglang.io/platforms/ascend/ascend_npu.html",
+      "unit": "n/a",
+      "value": "vLLM（vllm-ascend 后端）、SGLang（基于 CANN 9.0.0/9.1.0 镜像）"
+    },
+    "int16_tops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "int8_tops": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+      "unit": "TOPS",
+      "value": "1500-1600"
+    },
+    "interconnect_bw": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+      "unit": "GB/s",
+      "value": "784（HCCS 片间互联）+ 392（UB）"
+    },
+    "launch_date": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "n/a",
+      "value": "2025-Q1 起量产发货"
+    },
+    "memory_bandwidth": {
+      "confidence": "verified",
+      "conflict_with": [
+        {
+          "note": "官方口径 3.2 TB/s，部分来源记 1.8 TB/s",
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+          "unit": "GB/s",
+          "value": "1800"
+        },
+        {
+          "note": "该数值实为 HCCS 片间互联带宽，非显存带宽",
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+          "unit": "GB/s",
+          "value": "784"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "GB/s",
+      "value": "3200"
+    },
+    "memory_capacity": {
+      "confidence": "verified",
+      "conflict_with": [
+        {
+          "note": "部分板卡配置",
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+          "unit": "GB",
+          "value": "96"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "GB",
+      "value": "128"
+    },
+    "memory_type": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "n/a",
+      "value": "HBM2e"
+    },
+    "migration_tool": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "missing_ops": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "model": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "n/a",
+      "value": "昇腾910C（Ascend 910C）"
+    },
+    "operator_coverage": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "operator_lib": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "process_node": {
+      "confidence": "single-source",
+      "conflict_with": [
+        {
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+          "unit": "n/a",
+          "value": "7nm（SMIC N+1/N+2，第三方推测，官方未确认）"
+        }
+      ],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "n/a",
+      "value": "7nm（SMIC N+2）"
+    },
+    "programming_model": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "unit": "n/a",
+      "value": "未公开"
+    },
+    "series": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+      "unit": "n/a",
+      "value": "昇腾 Ascend"
+    },
+    "software_stack": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.vllm.ai/projects/ascend/en/main/index.html",
+      "unit": "n/a",
+      "value": "CANN（昇腾异构计算架构）"
+    },
+    "target_workload": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "n/a",
+      "value": "千亿参数 LLM 训练/推理"
+    },
+    "tdp": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "W",
+      "value": "600"
+    },
+    "vendor": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "unit": "n/a",
+      "value": "华为"
+    }
+  },
+  "keywords": [
+    "昇腾910C",
+    "华为",
+    "昇腾",
+    "ascend-910c",
+    "huawei",
+    "训练/推理（双 die 封装训推一体）",
+    "7nm（SMIC N+2）",
+    "HBM2e",
+    "CANN（昇腾异构计算架构）",
+    "国产AI芯片",
+    "AI加速卡",
+    "芯片规格",
+    "算力规格库"
+  ],
+  "model": "昇腾910C",
+  "model_slug": "ascend-910c",
+  "schema_version": "0.1",
+  "series": "昇腾",
+  "vendor": "华为",
+  "vendor_slug": "huawei"
+}
