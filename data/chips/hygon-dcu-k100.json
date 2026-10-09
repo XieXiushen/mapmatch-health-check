@@ -8,7 +8,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "GPGPU（x86 生态兼容 DCU 架构）"
+      "value": "GPGPU（x86 生态兼容 DCU 架构）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "bf16_tflops": {
       "confidence": "single-source",
@@ -16,7 +18,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "TFLOPS",
-      "value": "192"
+      "value": "192",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "category": {
       "confidence": "single-source",
@@ -24,15 +28,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "训练/推理（GPGPU）"
+      "value": "训练/推理（GPGPU）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "certification": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "DCU-3G 已入安全可靠 I 级（K100 本身未单列）"
+      "value": "DCU-3G 已入安全可靠 I 级（K100 本身未单列）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "cuda_compat": {
       "confidence": "single-source",
@@ -40,7 +48,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "Z200 支持 CUDA 兼容优化"
+      "value": "Z200 支持 CUDA 兼容优化",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "custom_op": {
       "confidence": "unverified",
@@ -48,7 +58,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "form_factor": {
       "confidence": "unverified",
@@ -56,7 +68,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp16_tflops": {
       "confidence": "single-source",
@@ -66,21 +80,27 @@
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "TFLOPS",
-          "value": "96"
+          "value": "96",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "TFLOPS",
-      "value": "192"
+      "value": "192",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp32_tflops": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "TFLOPS",
-      "value": "49"
+      "value": "49",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp64_tflops": {
       "confidence": "single-source",
@@ -90,13 +110,17 @@
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "TFLOPS",
-          "value": "约10（深算 Z100 口径）"
+          "value": "约10（深算 Z100 口径）",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "TFLOPS",
-      "value": "24.5（标准版 K100）"
+      "value": "24.5（标准版 K100）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp8_tflops": {
       "confidence": "unverified",
@@ -104,7 +128,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "framework_support": {
       "confidence": "unverified",
@@ -112,7 +138,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "主流深度学习框架（DTK 生态）"
+      "value": "主流深度学习框架（DTK 生态）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "host_interface": {
       "confidence": "single-source",
@@ -120,7 +148,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "PCIe 4.0"
+      "value": "PCIe 4.0",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "inference_engine": {
       "confidence": "unverified",
@@ -128,7 +158,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "instruction_set": {
       "confidence": "single-source",
@@ -136,7 +168,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "x86 指令集兼容（自研 GPGPU，底层指令集兼容 x86）"
+      "value": "x86 指令集兼容（自研 GPGPU，底层指令集兼容 x86）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "int16_tops": {
       "confidence": "unverified",
@@ -144,7 +178,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "int8_tops": {
       "confidence": "single-source",
@@ -152,7 +188,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "TOPS",
-      "value": "392"
+      "value": "392",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "interconnect_bw": {
       "confidence": "unverified",
@@ -160,7 +198,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "launch_date": {
       "confidence": "unverified",
@@ -168,15 +208,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_bandwidth": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "GB/s",
-      "value": "896"
+      "value": "896",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_capacity": {
       "confidence": "single-source",
@@ -184,7 +228,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "GB",
-      "value": "64"
+      "value": "64",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_type": {
       "confidence": "single-source",
@@ -193,13 +239,17 @@
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
-          "value": "HBM2"
+          "value": "HBM2",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "HBM2e"
+      "value": "HBM2e",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "migration_tool": {
       "confidence": "unverified",
@@ -207,7 +257,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "missing_ops": {
       "confidence": "unverified",
@@ -215,7 +267,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "model": {
       "confidence": "single-source",
@@ -223,7 +277,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "海光DCU K100（K100-AI）"
+      "value": "海光DCU K100（K100-AI）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_coverage": {
       "confidence": "unverified",
@@ -231,7 +287,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_lib": {
       "confidence": "unverified",
@@ -239,7 +297,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "process_node": {
       "confidence": "unverified",
@@ -247,7 +307,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "programming_model": {
       "confidence": "unverified",
@@ -255,7 +317,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "类 ROCm/HIP 编程模型"
+      "value": "类 ROCm/HIP 编程模型",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "series": {
       "confidence": "single-source",
@@ -263,7 +327,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "深算 DCU"
+      "value": "深算 DCU",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "software_stack": {
       "confidence": "single-source",
@@ -271,7 +337,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
-      "value": "DTK 3.0（兼容 ROCm 生态）"
+      "value": "DTK 3.0（兼容 ROCm 生态）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "target_workload": {
       "confidence": "single-source",
@@ -279,7 +347,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "n/a",
-      "value": "国产大模型训练与推理"
+      "value": "国产大模型训练与推理",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "tdp": {
       "confidence": "single-source",
@@ -287,15 +357,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
       "unit": "W",
-      "value": "约300"
+      "value": "约300",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "vendor": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "海光信息技术股份有限公司"
+      "value": "海光信息技术股份有限公司",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     }
   },
   "keywords": [

@@ -7,18 +7,52 @@
 <meta name="description" content="方法与纪律：数据管道、校验规则、口径说明、软件面字段「未公开」统计，以及 r41 GEO 引用层。">
 <link rel="canonical" href="https://xiexiushen.github.io/mapmatch-health-check/method/">
 <style>body{font:15px/1.7 -apple-system,Segoe UI,Microsoft YaHei,sans-serif;max-width:1120px;margin:0 auto;padding:20px;color:#1c1c1e}h1{font-size:22px}h2{font-size:18px;margin-top:28px;border-bottom:1px solid #ddd;padding-bottom:4px}nav{font-size:13px;color:#666;margin-bottom:12px}.bc{font-size:12.5px;color:#666;margin-bottom:12px}.bc a{color:#0a63c2}.bc .cur{color:#333}table{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0}.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:8px 0}.tbl table{margin:0;min-width:520px}th,td{border:1px solid #ddd;padding:5px 8px;text-align:left;vertical-align:top}th{background:#f5f5f7;position:sticky;top:0;z-index:2}th.s{cursor:pointer}code{background:#f5f5f7;padding:1px 4px;border-radius:3px;font-size:12px}.warn{color:#a33}.muted{color:#777;font-size:12.5px}.fbar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.fbar input,.fbar select{font-size:14px;padding:6px 8px;border:1px solid #ccc;border-radius:6px}.fbar input{flex:1;min-width:180px}.ck{display:inline-block;margin:4px 14px 4px 0;font-size:13.5px}a{color:#0a63c2;text-decoration:none}a:hover{text-decoration:underline}</style>
+<style>/* R44/D5：主色 #0a63c2 + 语义色（绿=T1已证实 黄=来源冲突/差异 灰=未公开 红=风险） */
+:root{--r44-main:#0a63c2;--r44-t1:#0f7b3f;--r44-t1-bg:#e6f4ec;--r44-t2:#1f6fb2;--r44-t2-bg:#e8f1fa;--r44-t3:#6b7280;--r44-t3-bg:#f1f1f3;--r44-warn:#8a6d0b;--r44-warn-bg:#fdf6e3;--r44-risk:#b3261e;--r44-risk-bg:#fdecea}
+.r44-bar{margin:6px 0 14px;padding:7px 10px;border:1px solid #e3e3e6;border-left:3px solid var(--r44-main);border-radius:4px;background:#fafbfc;font-size:12.5px;color:#3d3d42}
+.r44-bar b{color:var(--r44-main)}
+.r44-lead{background:#f7fafd;border:1px solid #dde8f4;border-radius:6px;padding:10px 12px;margin:10px 0}
+.kpi{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 14px;padding:0;list-style:none}
+.kpi li{flex:1 1 150px;min-width:140px;border:1px solid #e6e6ea;border-radius:8px;padding:10px 12px;background:#fff}
+.kpi span{display:block;font-size:12px;color:#666}
+.kpi b{display:block;font-size:30px;line-height:1.15;color:var(--r44-main);font-weight:700}
+.kpi small{display:block;color:#666;font-size:11.5px}
+.big{font-size:30px;font-weight:700;color:var(--r44-main)}
+.tier{display:inline-block;font-size:11.5px;line-height:1.55;padding:0 6px;border-radius:9px;border:1px solid transparent;font-weight:600;white-space:nowrap}
+.tier.t1{color:var(--r44-t1);background:var(--r44-t1-bg);border-color:#b7dfc7}
+.tier.t2{color:var(--r44-t2);background:var(--r44-t2-bg);border-color:#c6dcf0}
+.tier.t3{color:var(--r44-t3);background:var(--r44-t3-bg);border-color:#dcdce1}
+.tier.t-und{color:#6b7280;background:#f6f6f8;border-color:#e2e2e6}
+.tier.t-warn{color:var(--r44-warn);background:var(--r44-warn-bg);border-color:#efdfae}
+.und{color:#6b7280;background:#f6f6f8;padding:0 5px;border-radius:3px}
+details.r44-detail{margin:10px 0}
+details.r44-detail>summary{cursor:pointer;font-weight:600;color:var(--r44-main);padding:5px 0}
+tbody tr:nth-child(even){background:#fafafb}
+th{background:#f5f5f7;position:sticky;top:0;z-index:2}
+tr.diff td{background:var(--r44-warn-bg)}
+td.hl{background:var(--r44-warn-bg)}
+#out table{min-width:520px}
+#out table th:first-child,#out table td:first-child{position:sticky;left:0;background:#fff;z-index:1}
+#out table tr.diff td:first-child,#out table tr.diff th:first-child{background:var(--r44-warn-bg)}
+#do-compare{font:inherit;padding:6px 14px;border-radius:6px;border:1px solid var(--r44-main);background:var(--r44-main);color:#fff;cursor:pointer}
+#do-compare[disabled]{background:#c9ccd2;border-color:#c9ccd2;cursor:not-allowed}
+#cnt{margin-left:8px;font-size:13px}
+@media(max-width:600px){.kpi b{font-size:28px}#out{overflow-x:auto}}
+</style>
 </head>
 <body>
-<nav><a href="../">首页</a> · <a href="../chips/">芯片卡片</a> · <a href="../compare/">型号对比</a> · <a href="../stacks/">软件栈</a> · <a href="../operators/">算子生态</a> · <a href="../verdict/">结论</a> · <a href="../dataset/">数据集</a> · <a href="../sources/">来源</a> · <a href="../method/">方法</a></nav>
+<nav><a href="../">首页</a> · <a href="../chips/">芯片卡片</a> · <a href="../compare/">型号对比</a> · <a href="../stacks/">软件栈</a> · <a href="../operators/">算子生态</a> · <a href="../verdict/">结论</a> · <a href="../guide/">决策指南</a> · <a href="../changelog/">变更记录</a> · <a href="../dataset/">数据集</a> · <a href="../sources/">来源</a> · <a href="../method/">方法</a></nav>
+<div class="r44-bar">数据截止 2026-10-09 ｜ 本页 408 字段：T1 60／T2 42／T3 128／未公开 178 <span class="muted">（字段级 last_verified 2026-10-09）</span></div>
 <div class="bc"><a href="../">首页</a> › <span class="cur">方法</span></div>
 <h1>方法与纪律</h1>
 <h2>数据管道</h2><ol><li>归档原文到 <code>raw/</code>（URL 只归档，不改写、不解析）；<code>tools/collect/sources.json</code> 登记 slug→URL。</li><li>抽取：<code>tools/collect/extract.py</code> 对 raw/*.html 去标签 + 关键词过滤，落 <code>temp/digest.txt</code> 供人工核对（不做数值改写）。</li><li>回填：人工核对后写入 <code>data/chips/*.json</code>；每字段 source_url 指回 raw/ 已归档来源。</li><li>校验：<code>tools/validate.py</code>（详见下）。</li><li>渲染：<code>tools/build.py</code> 仅渲染通过校验的卡片。</li></ol>
-<h2>校验规则</h2><p>R1 结构(≥25 字段且六键齐全)；R2 非空；R3 日期格式；R4 置信枚举；R5 来源可追溯(source_url 命中 sources.json 且 raw/&lt;slug&gt;.html 存在)；R6 数字字段必须带单位；R7 冲突登记完整且 conflict_with 可追溯。</p><p class="warn">边界：校验器保证“已登记项的完整与可追溯”，不保证“冲突发现的覆盖度”——后者依赖人工检索登记，属已知局限。</p>
+<h2>校验规则</h2><p>R1 结构(≥25 字段且六键齐全)；R2 非空；R3 日期格式；R4 置信枚举；R5 来源可追溯(source_url 命中 sources.json 且 raw/&lt;slug&gt;.* 归档存在)；R8 来源分级(source_tier ∈ T1/T2/T3)；R9 铁律(verified 必须有 T1 官方来源)；R10 时效(字段级 last_verified)；R6 数字字段必须带单位；R7 冲突登记完整且 conflict_with 可追溯。</p><p class="warn">边界：校验器保证“已登记项的完整与可追溯”，不保证“冲突发现的覆盖度”——后者依赖人工检索登记，属已知局限。</p>
 <h2>口径说明</h2><p>source_date 对动态产品页/规格站取「归档取得日」(2026-10-09)；对安全可靠认证公告取「公告发布日」(2026-05-26)。confidence: verified=≥2 个已归档来源一致；single-source=单一已归档来源；unverified=公开口径未给出（值为“未公开”）。</p>
 <h2>软件面字段「未公开」统计（P4）</h2><p>下表为每个型号 7 个软件面字段（指令集 / 编程模型 / CUDA 兼容层 / 算子库 / 推理后端 / 框架支持 / 迁移工具）中取值为「未公开」的计数与占比；「未公开」表示公开口径未给出，已登记的尝试来源见各卡片对应字段的 <code>source_url</code>（同样附来源与日期，未凭推测填数）。</p><div class="tbl" style="overflow-x:auto"><table><tr><th>型号</th><th>未公开字段数</th><th>占比</th><th>未公开字段</th></tr><tr><td>思元370-X8</td><td>3/7</td><td>42.9%</td><td>指令集、推理后端、框架支持</td></tr><tr><td>思元590</td><td>3/7</td><td>42.9%</td><td>指令集、推理后端、框架支持</td></tr><tr><td>昇腾910B</td><td>5/7</td><td>71.4%</td><td>指令集、编程模型、算子库、框架支持、迁移工具</td></tr><tr><td>昇腾910C</td><td>5/7</td><td>71.4%</td><td>指令集、编程模型、算子库、框架支持、迁移工具</td></tr><tr><td>海光DCU K100</td><td>3/7</td><td>42.9%</td><td>算子库、推理后端、迁移工具</td></tr><tr><td>天垓100</td><td>1/7</td><td>14.3%</td><td>推理后端</td></tr><tr><td>天垓150</td><td>4/7</td><td>57.1%</td><td>指令集、编程模型、推理后端、迁移工具</td></tr><tr><td>智铠100</td><td>1/7</td><td>14.3%</td><td>推理后端</td></tr><tr><td>昆仑芯P800</td><td>5/7</td><td>71.4%</td><td>指令集、编程模型、算子库、框架支持、迁移工具</td></tr><tr><td>昆仑芯R200</td><td>3/7</td><td>42.9%</td><td>编程模型、算子库、框架支持</td></tr><tr><td>MTT S4000</td><td>3/7</td><td>42.9%</td><td>指令集、算子库、迁移工具</td></tr><tr><td>MTT S5000</td><td>2/7</td><td>28.6%</td><td>算子库、迁移工具</td></tr></table></div>
-<h2>本次校验结果</h2><p>通过 12 / 失败 0；归档来源 29 页 2885369 字节；sources.json 登记 29 条。</p>
+<h2>本次校验结果</h2><p>通过 12 / 失败 0；归档来源 34 页 71859775 字节；sources.json 登记 33 条。</p>
 <h2>GEO 引用层（r41）</h2><ol><li>robots.txt：对 9 个 AI/检索直取器（GPTBot / ChatGPT-User / ClaudeBot / PerplexityBot 等）逐条显式 Allow；对 5 个 SEO/反链采集器（AhrefsBot / SemrushBot 等）Disallow；并附 Sitemap 指令。</li><li>sitemap.xml：由构建器按实际页面树生成，&lt;loc&gt; 条数 = 页面数（见页脚构建号与本页 [6] 核对）。</li><li>dataset/chips.json：开放数据集导出（单一事实源 = data/chips/*.json），许可 CC BY 4.0；引用格式见 <a href="../dataset/">数据集页</a>。</li><li>字段级 SEO：每页 &lt;title&gt;/&lt;meta description&gt; 由数据生成；型号页另含数据推导的 &lt;meta keywords&gt;（源自 data/chips/*.json 的 keywords 字段）。</li></ol><p class="muted">量口径唯一来源：型号数、厂商数、字段数均取自 data/chips/*.json，页面内数字一律由构建器注入，不手写。</p>
 <h2>更新节奏与引用版本</h2><p>本数据集为人工核验的静态快照、非实时；随迭代批次发布，批次号见页脚构建号（当前 <code>r42-v0.3-relpath</code>）。来源归档 <code>raw/</code> 仅存于工作副本、不随站点发布（版权与商业敏感）；线上可回指的是字段级 source_url 与来源台账 sha256。</p>
 <hr><p class="muted">构建: r42-v0.3-relpath · 数据来源见 <a href="../sources/">来源页</a> · 构建器 tools/build.py（确定性输出）</p>
+<!-- r44-post -->
 </body>
 </html>

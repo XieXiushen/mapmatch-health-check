@@ -8,7 +8,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "天数智芯自研通用 GPU 架构（天垓100 升级版）"
+      "value": "天数智芯自研通用 GPU 架构（天垓100 升级版）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "bf16_tflops": {
       "confidence": "unverified",
@@ -16,7 +18,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "category": {
       "confidence": "single-source",
@@ -24,15 +28,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "训练/推理（升级版通用 GPU）"
+      "value": "训练/推理（升级版通用 GPU）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "certification": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "KCC-V100X 芯片已入安全可靠 I 级（天垓150 本身未单列）"
+      "value": "KCC-V100X 芯片已入安全可靠 I 级（天垓150 本身未单列）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "cuda_compat": {
       "confidence": "single-source",
@@ -40,7 +48,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "兼容国际主流 GPU 通用计算模型"
+      "value": "兼容国际主流 GPU 通用计算模型",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "custom_op": {
       "confidence": "unverified",
@@ -48,7 +58,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "form_factor": {
       "confidence": "unverified",
@@ -56,7 +68,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp16_tflops": {
       "confidence": "unverified",
@@ -65,7 +79,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "TFLOPS",
-      "value": "未公开（推测 150-200）"
+      "value": "未公开（推测 150-200）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp32_tflops": {
       "confidence": "unverified",
@@ -73,7 +89,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp64_tflops": {
       "confidence": "unverified",
@@ -81,7 +99,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp8_tflops": {
       "confidence": "unverified",
@@ -89,7 +109,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "framework_support": {
       "confidence": "single-source",
@@ -97,7 +119,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "国内外主流深度学习框架"
+      "value": "国内外主流深度学习框架",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "host_interface": {
       "confidence": "unverified",
@@ -105,7 +129,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "PCIe Gen4（推测）"
+      "value": "PCIe Gen4（推测）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "inference_engine": {
       "confidence": "unverified",
@@ -113,7 +139,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "instruction_set": {
       "confidence": "unverified",
@@ -121,7 +149,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "int16_tops": {
       "confidence": "unverified",
@@ -129,7 +159,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "int8_tops": {
       "confidence": "unverified",
@@ -138,7 +170,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "TOPS",
-      "value": "未公开（推测 300-400）"
+      "value": "未公开（推测 300-400）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "interconnect_bw": {
       "confidence": "unverified",
@@ -146,7 +180,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "launch_date": {
       "confidence": "unverified",
@@ -154,7 +190,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_bandwidth": {
       "confidence": "unverified",
@@ -162,7 +200,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开（相较前代有提升）"
+      "value": "未公开（相较前代有提升）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_capacity": {
       "confidence": "unverified",
@@ -170,7 +210,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "GB",
-      "value": "推测 32-64"
+      "value": "推测 32-64",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_type": {
       "confidence": "unverified",
@@ -178,7 +220,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "推测 HBM2/HBM3"
+      "value": "推测 HBM2/HBM3",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "migration_tool": {
       "confidence": "unverified",
@@ -186,7 +230,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "missing_ops": {
       "confidence": "unverified",
@@ -194,7 +240,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "model": {
       "confidence": "single-source",
@@ -202,7 +250,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "天垓150"
+      "value": "天垓150",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_coverage": {
       "confidence": "unverified",
@@ -210,7 +260,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_lib": {
       "confidence": "single-source",
@@ -218,7 +270,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "支持国内外主流 AI 生态与深度学习框架及原生算子"
+      "value": "支持国内外主流 AI 生态与深度学习框架及原生算子",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "process_node": {
       "confidence": "unverified",
@@ -226,7 +280,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "programming_model": {
       "confidence": "unverified",
@@ -234,7 +290,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "series": {
       "confidence": "single-source",
@@ -242,7 +300,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "天垓（天垓100 升级版）"
+      "value": "天垓（天垓100 升级版）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "software_stack": {
       "confidence": "unverified",
@@ -250,7 +310,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "天数智芯自研软件栈（与天垓100 同源）"
+      "value": "天数智芯自研软件栈（与天垓100 同源）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "target_workload": {
       "confidence": "single-source",
@@ -258,7 +320,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "大规模 AI 训练与复杂计算"
+      "value": "大规模 AI 训练与复杂计算",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "tdp": {
       "confidence": "unverified",
@@ -266,7 +330,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "vendor": {
       "confidence": "single-source",
@@ -274,7 +340,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "上海天数智芯半导体股份有限公司"
+      "value": "上海天数智芯半导体股份有限公司",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     }
   },
   "keywords": [

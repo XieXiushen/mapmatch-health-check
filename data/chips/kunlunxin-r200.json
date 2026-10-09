@@ -8,7 +8,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.kunlunxin.com/product/2873.html",
       "unit": "n/a",
-      "value": "自研昆仑芯 XPU 架构"
+      "value": "自研昆仑芯 XPU 架构",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "bf16_tflops": {
       "confidence": "unverified",
@@ -16,7 +18,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "category": {
       "confidence": "single-source",
@@ -24,15 +28,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "训练/推理"
+      "value": "训练/推理",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "certification": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "本批次安全可靠 I 级名单未含昆仑芯"
+      "value": "本批次安全可靠 I 级名单未含昆仑芯",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "cuda_compat": {
       "confidence": "unverified",
@@ -40,7 +48,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "提供 CUDA 兼容适配（页面含 CUDA 兼容性条目，未给量化）"
+      "value": "提供 CUDA 兼容适配（页面含 CUDA 兼容性条目，未给量化）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "custom_op": {
       "confidence": "unverified",
@@ -48,7 +58,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "form_factor": {
       "confidence": "unverified",
@@ -56,7 +68,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp16_tflops": {
       "confidence": "single-source",
@@ -64,7 +78,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "TFLOPS",
-      "value": "128"
+      "value": "128",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp32_tflops": {
       "confidence": "single-source",
@@ -72,7 +88,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "TFLOPS",
-      "value": "32"
+      "value": "32",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp64_tflops": {
       "confidence": "unverified",
@@ -80,7 +98,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp8_tflops": {
       "confidence": "unverified",
@@ -88,7 +108,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "framework_support": {
       "confidence": "unverified",
@@ -96,7 +118,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "host_interface": {
       "confidence": "single-source",
@@ -104,7 +128,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "PCIe Gen4 x16"
+      "value": "PCIe Gen4 x16",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "inference_engine": {
       "confidence": "single-source",
@@ -112,7 +138,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.kunlunxin.com/product/2873.html",
       "unit": "n/a",
-      "value": "vLLM（vLLM-Kunlun 后端）"
+      "value": "vLLM（vLLM-Kunlun 后端）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "instruction_set": {
       "confidence": "verified",
@@ -120,7 +148,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.kunlunxin.com/product/2873.html",
       "unit": "n/a",
-      "value": "通用和专用指令集融合（自研 XPU-R 架构）"
+      "value": "通用和专用指令集融合（自研 XPU-R 架构）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "int16_tops": {
       "confidence": "single-source",
@@ -128,7 +158,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "TOPS",
-      "value": "128"
+      "value": "128",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "int8_tops": {
       "confidence": "single-source",
@@ -136,7 +168,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "TOPS",
-      "value": "256"
+      "value": "256",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "interconnect_bw": {
       "confidence": "unverified",
@@ -144,7 +178,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "launch_date": {
       "confidence": "unverified",
@@ -152,7 +188,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_bandwidth": {
       "confidence": "single-source",
@@ -160,7 +198,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "GB/s",
-      "value": "512"
+      "value": "512",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_capacity": {
       "confidence": "single-source",
@@ -168,7 +208,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "GB",
-      "value": "16/32"
+      "value": "16/32",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_type": {
       "confidence": "single-source",
@@ -176,7 +218,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "GDDR6"
+      "value": "GDDR6",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "migration_tool": {
       "confidence": "unverified",
@@ -184,7 +228,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "提供模型迁移工具（页面提及，未给出名称）"
+      "value": "提供模型迁移工具（页面提及，未给出名称）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "missing_ops": {
       "confidence": "unverified",
@@ -192,15 +238,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "model": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "昆仑芯R200（R200）"
+      "value": "昆仑芯R200（R200）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_coverage": {
       "confidence": "unverified",
@@ -208,7 +258,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_lib": {
       "confidence": "unverified",
@@ -216,7 +268,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "process_node": {
       "confidence": "single-source",
@@ -224,7 +278,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "7nm"
+      "value": "7nm",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "programming_model": {
       "confidence": "unverified",
@@ -232,7 +288,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "series": {
       "confidence": "single-source",
@@ -240,7 +298,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.kunlunxin.com/product/2873.html",
       "unit": "n/a",
-      "value": "昆仑芯（第二代）"
+      "value": "昆仑芯（第二代）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "software_stack": {
       "confidence": "unverified",
@@ -248,7 +308,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "昆仑芯自研软件栈 + vLLM 后端（vLLM-Kunlun）"
+      "value": "昆仑芯自研软件栈 + vLLM 后端（vLLM-Kunlun）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "target_workload": {
       "confidence": "single-source",
@@ -256,7 +318,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "推理为主（INT8 256 TOPS）"
+      "value": "推理为主（INT8 256 TOPS）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "tdp": {
       "confidence": "single-source",
@@ -264,7 +328,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "W",
-      "value": "150"
+      "value": "150",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "vendor": {
       "confidence": "single-source",
@@ -272,7 +338,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
       "unit": "n/a",
-      "value": "昆仑芯（北京）科技有限公司"
+      "value": "昆仑芯（北京）科技有限公司",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     }
   },
   "keywords": [

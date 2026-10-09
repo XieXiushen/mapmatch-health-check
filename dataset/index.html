@@ -7,9 +7,42 @@
 <meta name="description" content="开放数据集（CC BY 4.0）：6 家厂商 12 款国产 AI 芯片规格 JSON，附引用格式与许可。">
 <link rel="canonical" href="https://xiexiushen.github.io/mapmatch-health-check/dataset/">
 <style>body{font:15px/1.7 -apple-system,Segoe UI,Microsoft YaHei,sans-serif;max-width:1120px;margin:0 auto;padding:20px;color:#1c1c1e}h1{font-size:22px}h2{font-size:18px;margin-top:28px;border-bottom:1px solid #ddd;padding-bottom:4px}nav{font-size:13px;color:#666;margin-bottom:12px}.bc{font-size:12.5px;color:#666;margin-bottom:12px}.bc a{color:#0a63c2}.bc .cur{color:#333}table{border-collapse:collapse;width:100%;font-size:13px;margin:8px 0}.tbl{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:8px 0}.tbl table{margin:0;min-width:520px}th,td{border:1px solid #ddd;padding:5px 8px;text-align:left;vertical-align:top}th{background:#f5f5f7;position:sticky;top:0;z-index:2}th.s{cursor:pointer}code{background:#f5f5f7;padding:1px 4px;border-radius:3px;font-size:12px}.warn{color:#a33}.muted{color:#777;font-size:12.5px}.fbar{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}.fbar input,.fbar select{font-size:14px;padding:6px 8px;border:1px solid #ccc;border-radius:6px}.fbar input{flex:1;min-width:180px}.ck{display:inline-block;margin:4px 14px 4px 0;font-size:13.5px}a{color:#0a63c2;text-decoration:none}a:hover{text-decoration:underline}</style>
+<style>/* R44/D5：主色 #0a63c2 + 语义色（绿=T1已证实 黄=来源冲突/差异 灰=未公开 红=风险） */
+:root{--r44-main:#0a63c2;--r44-t1:#0f7b3f;--r44-t1-bg:#e6f4ec;--r44-t2:#1f6fb2;--r44-t2-bg:#e8f1fa;--r44-t3:#6b7280;--r44-t3-bg:#f1f1f3;--r44-warn:#8a6d0b;--r44-warn-bg:#fdf6e3;--r44-risk:#b3261e;--r44-risk-bg:#fdecea}
+.r44-bar{margin:6px 0 14px;padding:7px 10px;border:1px solid #e3e3e6;border-left:3px solid var(--r44-main);border-radius:4px;background:#fafbfc;font-size:12.5px;color:#3d3d42}
+.r44-bar b{color:var(--r44-main)}
+.r44-lead{background:#f7fafd;border:1px solid #dde8f4;border-radius:6px;padding:10px 12px;margin:10px 0}
+.kpi{display:flex;flex-wrap:wrap;gap:10px;margin:12px 0 14px;padding:0;list-style:none}
+.kpi li{flex:1 1 150px;min-width:140px;border:1px solid #e6e6ea;border-radius:8px;padding:10px 12px;background:#fff}
+.kpi span{display:block;font-size:12px;color:#666}
+.kpi b{display:block;font-size:30px;line-height:1.15;color:var(--r44-main);font-weight:700}
+.kpi small{display:block;color:#666;font-size:11.5px}
+.big{font-size:30px;font-weight:700;color:var(--r44-main)}
+.tier{display:inline-block;font-size:11.5px;line-height:1.55;padding:0 6px;border-radius:9px;border:1px solid transparent;font-weight:600;white-space:nowrap}
+.tier.t1{color:var(--r44-t1);background:var(--r44-t1-bg);border-color:#b7dfc7}
+.tier.t2{color:var(--r44-t2);background:var(--r44-t2-bg);border-color:#c6dcf0}
+.tier.t3{color:var(--r44-t3);background:var(--r44-t3-bg);border-color:#dcdce1}
+.tier.t-und{color:#6b7280;background:#f6f6f8;border-color:#e2e2e6}
+.tier.t-warn{color:var(--r44-warn);background:var(--r44-warn-bg);border-color:#efdfae}
+.und{color:#6b7280;background:#f6f6f8;padding:0 5px;border-radius:3px}
+details.r44-detail{margin:10px 0}
+details.r44-detail>summary{cursor:pointer;font-weight:600;color:var(--r44-main);padding:5px 0}
+tbody tr:nth-child(even){background:#fafafb}
+th{background:#f5f5f7;position:sticky;top:0;z-index:2}
+tr.diff td{background:var(--r44-warn-bg)}
+td.hl{background:var(--r44-warn-bg)}
+#out table{min-width:520px}
+#out table th:first-child,#out table td:first-child{position:sticky;left:0;background:#fff;z-index:1}
+#out table tr.diff td:first-child,#out table tr.diff th:first-child{background:var(--r44-warn-bg)}
+#do-compare{font:inherit;padding:6px 14px;border-radius:6px;border:1px solid var(--r44-main);background:var(--r44-main);color:#fff;cursor:pointer}
+#do-compare[disabled]{background:#c9ccd2;border-color:#c9ccd2;cursor:not-allowed}
+#cnt{margin-left:8px;font-size:13px}
+@media(max-width:600px){.kpi b{font-size:28px}#out{overflow-x:auto}}
+</style>
 </head>
 <body>
-<nav><a href="../">首页</a> · <a href="../chips/">芯片卡片</a> · <a href="../compare/">型号对比</a> · <a href="../stacks/">软件栈</a> · <a href="../operators/">算子生态</a> · <a href="../verdict/">结论</a> · <a href="../dataset/">数据集</a> · <a href="../sources/">来源</a> · <a href="../method/">方法</a></nav>
+<nav><a href="../">首页</a> · <a href="../chips/">芯片卡片</a> · <a href="../compare/">型号对比</a> · <a href="../stacks/">软件栈</a> · <a href="../operators/">算子生态</a> · <a href="../verdict/">结论</a> · <a href="../guide/">决策指南</a> · <a href="../changelog/">变更记录</a> · <a href="../dataset/">数据集</a> · <a href="../sources/">来源</a> · <a href="../method/">方法</a></nav>
+<div class="r44-bar">数据截止 2026-10-09 ｜ 本页 408 字段：T1 60／T2 42／T3 128／未公开 178 <span class="muted">（字段级 last_verified 2026-10-09）</span></div>
 <div class="bc"><a href="../">首页</a> › <span class="cur">数据集</span></div>
 <h1>开放数据集</h1>
 <p>开放数据集：本站在单一事实源 <code>data/chips/*.json</code> 之上导出机器可读数据集 <a href="../dataset/chips.json"><code>/dataset/chips.json</code></a>，收录 <b>6</b> 家厂商 <b>12</b> 款芯片共 <b>408</b> 个字段。</p><h2>许可</h2><p>CC BY 4.0（<a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>）。引用请保留出处与许可。</p><h2>如何引用</h2><p class="muted">引用格式（文本式 + BibTeX）：</p><pre><code>XieXiushen. 国产 AI 芯片规格库 [DB/OL]. 2026. https://xiexiushen.github.io/mapmatch-health-check/dataset/chips.json</code></pre><pre><code>@misc{mapmatch_chips_2026,
@@ -20,5 +53,6 @@
   url    = {https://xiexiushen.github.io/mapmatch-health-check/dataset/chips.json}
 }</code></pre><h2>收录型号</h2><ul><li><a href="../chip/cambricon-mlu370-x8/">寒武纪 思元370-X8</a> · 训练/推理</li><li><a href="../chip/cambricon-mlu590/">寒武纪 思元590</a> · 训练/推理（现役主力）</li><li><a href="../chip/huawei-ascend-910b/">华为 昇腾910B</a> · 训练/推理（训推一体）</li><li><a href="../chip/huawei-ascend-910c/">华为 昇腾910C</a> · 训练/推理（训推一体）</li><li><a href="../chip/hygon-dcu-k100/">海光 海光DCU K100</a> · 训练/推理（GPGPU）</li><li><a href="../chip/iluvatar-tiangai-100/">天数智芯 天垓100</a> · 训练/推理（通用 GPU）</li><li><a href="../chip/iluvatar-tiangai-150/">天数智芯 天垓150</a> · 训练/推理（通用 GPU，升级版）</li><li><a href="../chip/iluvatar-zhikai-100/">天数智芯 智铠100</a> · 推理（训推一体）</li><li><a href="../chip/kunlunxin-p800/">昆仑芯 昆仑芯P800</a> · 训练/推理（OAM 旗舰）</li><li><a href="../chip/kunlunxin-r200/">昆仑芯 昆仑芯R200</a> · 训练/推理</li><li><a href="../chip/mthreads-mtt-s4000/">摩尔线程 MTT S4000</a> · 训练/推理/图形（全功能元计算卡）</li><li><a href="../chip/mthreads-mtt-s5000/">摩尔线程 MTT S5000</a> · 训练/推理（训推一体，旗舰）</li></ul>
 <hr><p class="muted">构建: r42-v0.3-relpath · 数据来源见 <a href="../sources/">来源页</a> · 构建器 tools/build.py（确定性输出）</p>
+<!-- r44-post -->
 </body>
 </html>

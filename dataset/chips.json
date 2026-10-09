@@ -8,7 +8,9 @@
         "architecture": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "MLUarch03（第三代 MLU 架构）"
@@ -16,24 +18,30 @@
         "bf16_tflops": {
           "confidence": "verified",
           "conflict_with": [],
-          "note": "【参考·非本卡冲突】48 TFLOPS-该页早期误记，已更正（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "TFLOPS",
           "value": "96"
         },
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "训练/推理"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "本批次安全可靠 I 级名单未含寒武纪"
@@ -41,7 +49,9 @@
         "cuda_compat": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "Bang C（寒武纪 CUDA 兼容编程语言，CUDA 代码可低成本迁移）"
@@ -49,7 +59,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
@@ -57,7 +69,9 @@
         "form_factor": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "未公开"
@@ -65,24 +79,31 @@
         "fp16_tflops": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "TFLOPS",
           "value": "96"
         },
         "fp32_tflops": {
           "confidence": "verified",
           "conflict_with": [],
-          "note": "【参考·非本卡冲突】48 TFLOPS-该页早期误记，已更正（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "TFLOPS",
           "value": "24"
         },
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "未公开"
@@ -90,7 +111,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "未公开"
@@ -98,7 +121,9 @@
         "framework_support": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
@@ -106,7 +131,9 @@
         "host_interface": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "未公开"
@@ -114,7 +141,9 @@
         "inference_engine": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
@@ -122,15 +151,19 @@
         "instruction_set": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "未公开"
         },
         "int16_tops": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "TOPS",
           "value": "128"
@@ -138,16 +171,20 @@
         "int8_tops": {
           "confidence": "verified",
           "conflict_with": [],
-          "note": "【参考·非本卡冲突】96 TOPS-该页早期误记，已更正为 256（寒武纪官网实锤）（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "TOPS",
           "value": "256"
         },
         "interconnect_bw": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "GB/s",
           "value": "200（双向）"
@@ -155,7 +192,9 @@
         "launch_date": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "未公开"
@@ -163,32 +202,42 @@
         "memory_bandwidth": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "GB/s",
           "value": "614.4"
         },
         "memory_capacity": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "GB",
           "value": "48"
         },
         "memory_type": {
           "confidence": "verified",
           "conflict_with": [],
-          "note": "【参考·非本卡冲突】HBM2 n/a-该页早期误记，已更正：思元370系列用 LPDDR5（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "n/a",
           "value": "LPDDR5"
         },
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "BANG C 迁移路径（CUDA 代码低成本迁移）"
@@ -196,15 +245,19 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
         },
         "model": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "思元370-X8（MLU370-X8）"
@@ -212,7 +265,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
@@ -220,7 +275,9 @@
         "operator_lib": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "CNBL / CNCL（NeuWare SDK 内）"
@@ -228,15 +285,20 @@
         "process_node": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "n/a",
           "value": "7nm"
         },
         "programming_model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "BANG C 2.0"
@@ -244,7 +306,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "思元 MLU（MLUarch03 第三代）"
@@ -252,7 +316,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "Bangware 软件栈 + NeuWare SDK（CNRT 运行时 + CNBL/CNCL 算子库 + 编译器）"
@@ -260,7 +326,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "训练/推理（通用）"
@@ -268,16 +336,20 @@
         "tdp": {
           "confidence": "verified",
           "conflict_with": [],
-          "note": "【参考·非本卡冲突】35 W-该页早期误记，已更正（https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/）",
+          "last_verified": "2026-10-09",
+          "note": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+          "source_tier": "T1",
+          "source_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
           "unit": "W",
           "value": "250"
         },
         "vendor": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "寒武纪（Cambricon）"
@@ -313,7 +385,9 @@
         "architecture": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "自研 MLU 架构（Chiplet）"
@@ -321,7 +395,9 @@
         "bf16_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
@@ -329,15 +405,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "训练/推理（现役主力）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "本批次安全可靠 I 级名单未含寒武纪"
@@ -345,7 +425,9 @@
         "cuda_compat": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "自研 Bangware 软件栈实现 CUDA 兼容"
@@ -353,7 +435,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
@@ -361,23 +445,29 @@
         "form_factor": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
         },
         "fp16_tflops": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "部分来源标注 345 TFLOPS",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
               "unit": "TFLOPS",
               "value": "345"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "TFLOPS",
           "value": "256"
@@ -386,13 +476,17 @@
           "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
               "unit": "TFLOPS",
               "value": "80"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "TFLOPS",
           "value": "约64"
@@ -400,7 +494,9 @@
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
@@ -408,7 +504,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
@@ -416,7 +514,9 @@
         "framework_support": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
@@ -424,7 +524,9 @@
         "host_interface": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
@@ -432,7 +534,9 @@
         "inference_engine": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
@@ -440,7 +544,9 @@
         "instruction_set": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
@@ -448,15 +554,19 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
         },
         "int8_tops": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "TOPS",
           "value": "512"
@@ -464,7 +574,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
@@ -472,7 +584,9 @@
         "launch_date": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "2026-07 官方正式商用"
@@ -481,30 +595,38 @@
           "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "同一数据集另页记 2.7 TB/s",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
               "unit": "GB/s",
               "value": "2700"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "GB/s",
           "value": "约2000"
         },
         "memory_capacity": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "GB",
           "value": "96"
         },
         "memory_type": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "HBM2e"
@@ -512,7 +634,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "BANG C 迁移路径"
@@ -520,15 +644,19 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
         },
         "model": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "思元590（MLU590）"
@@ -536,7 +664,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "未公开"
@@ -544,15 +674,19 @@
         "operator_lib": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "CNBL / CNCL（NeuWare SDK 内）"
         },
         "process_node": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "7nm + Chiplet 封装"
@@ -560,7 +694,9 @@
         "programming_model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "BANG C 2.0（590 支持 CNN/Transformer 双优化）"
@@ -568,7 +704,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "思元 MLU"
@@ -576,7 +714,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "Bangware 软件栈 + NeuWare SDK"
@@ -584,7 +724,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "大规模 AI 训练/推理（2025 年出货约 11.6 万颗）"
@@ -592,15 +734,19 @@
         "tdp": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
         },
         "vendor": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "n/a",
           "value": "寒武纪（Cambricon）"
@@ -635,7 +781,9 @@
         "architecture": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
           "unit": "n/a",
           "value": "达芬奇（Da Vinci）架构"
@@ -643,7 +791,9 @@
         "bf16_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -651,15 +801,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
           "unit": "n/a",
           "value": "训练/推理"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "昇腾910 已入安全可靠 I 级（同系列，910B 未单列）"
@@ -667,7 +821,9 @@
         "cuda_compat": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "非 CUDA 兼容路线（自研 CANN 生态）"
@@ -675,7 +831,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -683,7 +841,9 @@
         "form_factor": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -692,30 +852,59 @@
           "confidence": "verified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "多来源通用口径采用 320",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
               "unit": "TFLOPS",
               "value": "256"
+            },
+            {
+              "last_verified": "2026-10-09",
+              "note": "r40 原入库口径（T3）；保留用于追溯",
+              "source_date": "2026-10-09",
+              "source_tier": "T3",
+              "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
+              "unit": "TFLOPS",
+              "value": "320"
             }
           ],
+          "last_verified": "2026-10-09",
+          "note": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
+          "source_tier": "T1",
+          "source_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf",
           "unit": "TFLOPS",
-          "value": "320"
+          "value": "313/376"
         },
         "fp32_tflops": {
-          "confidence": "single-source",
-          "conflict_with": [],
+          "confidence": "verified",
+          "conflict_with": [
+            {
+              "last_verified": "2026-10-09",
+              "note": "r40 原入库口径（T3）；保留用于追溯",
+              "source_date": "2026-10-09",
+              "source_tier": "T3",
+              "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
+              "unit": "TFLOPS",
+              "value": "51.2"
+            }
+          ],
+          "last_verified": "2026-10-09",
+          "note": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
+          "source_tier": "T1",
+          "source_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf",
           "unit": "TFLOPS",
-          "value": "51.2"
+          "value": "82/99"
         },
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -723,7 +912,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -731,7 +922,9 @@
         "framework_support": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -739,7 +932,9 @@
         "host_interface": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -747,7 +942,9 @@
         "inference_engine": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.vllm.ai/projects/ascend/en/main/index.html",
           "unit": "n/a",
           "value": "vLLM（vllm-ascend 后端）"
@@ -755,7 +952,9 @@
         "instruction_set": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
           "unit": "n/a",
           "value": "未公开"
@@ -763,7 +962,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -771,7 +972,9 @@
         "int8_tops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
           "unit": "TOPS",
           "value": "640"
@@ -779,7 +982,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -787,31 +992,40 @@
         "launch_date": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
           "unit": "n/a",
           "value": "2024 量产发货（2022 工程样片）"
         },
         "memory_bandwidth": {
-          "confidence": "single-source",
+          "confidence": "verified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "B1/B2",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
               "unit": "GB/s",
               "value": "600"
             },
             {
+              "last_verified": "2026-10-09",
               "note": "B3",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
               "unit": "GB/s",
               "value": "1200"
             }
           ],
+          "last_verified": "2026-10-09",
+          "note": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
           "source_date": "2026-10-09",
-          "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
+          "source_tier": "T1",
+          "source_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf",
           "unit": "GB/s",
           "value": "1600"
         },
@@ -819,30 +1033,39 @@
           "confidence": "verified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "B3 为 HBM3e",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
               "unit": "GB",
               "value": "64（B1/B2）"
             }
           ],
+          "last_verified": "2026-10-09",
+          "note": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
           "source_date": "2026-10-09",
-          "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
+          "source_tier": "T1",
+          "source_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf",
           "unit": "GB",
           "value": "64"
         },
         "memory_type": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "子版本差异",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
               "unit": "n/a",
               "value": "HBM2e（B1/B2）/ HBM3e（B3）"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
           "unit": "n/a",
           "value": "HBM2e"
@@ -850,7 +1073,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -858,15 +1083,19 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
         },
         "model": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
           "unit": "n/a",
           "value": "昇腾910B（Ascend 910B，含 B1/B2/B3/B4 子版本）"
@@ -874,7 +1103,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -882,22 +1113,28 @@
         "operator_lib": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
         },
         "process_node": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
               "unit": "n/a",
               "value": "TSMC 7nm+（含 SMIC 国产化努力）"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
           "unit": "n/a",
           "value": "SMIC 7nm（N+1/N+2）"
@@ -905,15 +1142,19 @@
         "programming_model": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
         },
         "series": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
           "unit": "n/a",
           "value": "昇腾 Ascend（910 线第二代）"
@@ -921,7 +1162,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.vllm.ai/projects/ascend/en/main/index.html",
           "unit": "n/a",
           "value": "CANN（昇腾异构计算架构）"
@@ -929,23 +1172,30 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
           "unit": "n/a",
           "value": "中国大陆境内大模型训练（实体清单/出口管制范围内）"
         },
         "tdp": {
-          "confidence": "single-source",
+          "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
+          "note": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
           "source_date": "2026-10-09",
-          "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
+          "source_tier": "T1",
+          "source_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf",
           "unit": "W",
           "value": "400"
         },
         "vendor": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910b",
           "unit": "n/a",
           "value": "华为"
@@ -980,16 +1230,20 @@
       "field_count": 34,
       "fields": {
         "architecture": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
               "unit": "n/a",
               "value": "达芬奇 3D Cube"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "n/a",
           "value": "达芬奇（Da Vinci）架构；双 die 封装（两颗 910B 级 die）"
@@ -998,13 +1252,17 @@
           "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
               "unit": "TFLOPS",
               "value": "800"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "TFLOPS",
           "value": "780"
@@ -1012,15 +1270,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "n/a",
           "value": "训练/推理（双 die 封装训推一体）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "同厂商型号已入安全可靠 I 级（昇腾910、昇腾310）；910C 本身未单列"
@@ -1028,7 +1290,9 @@
         "cuda_compat": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "非 CUDA 兼容路线（自研 CANN 生态）"
@@ -1036,7 +1300,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1044,31 +1310,79 @@
         "form_factor": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
         },
         "fp16_tflops": {
           "confidence": "verified",
-          "conflict_with": [],
+          "conflict_with": [
+            {
+              "last_verified": "2026-10-09",
+              "note": "r40 原入库口径（T3）；保留用于追溯",
+              "source_date": "2026-10-09",
+              "source_tier": "T3",
+              "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+              "unit": "TFLOPS",
+              "value": "800"
+            },
+            {
+              "last_verified": "2026-10-09",
+              "note": "Atlas 800I A3 推理超节点白皮书口径（T1，整机级）",
+              "source_date": "2026-10-09",
+              "source_tier": "T1",
+              "source_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/5f99170196404c5f90a7d0638c613652/M3T1A669N1270815470069330053/Atlas 800I A3 超节点 技术白皮书 07.pdf",
+              "unit": "TFLOPS",
+              "value": "560"
+            }
+          ],
+          "last_verified": "2026-10-09",
+          "note": "Atlas 800T A3 超节点技术白皮书（整机级，训练）",
           "source_date": "2026-10-09",
-          "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+          "source_tier": "T1",
+          "source_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf",
           "unit": "TFLOPS",
-          "value": "800"
+          "value": "752/626"
         },
         "fp32_tflops": {
-          "confidence": "unverified",
-          "conflict_with": [],
+          "confidence": "verified",
+          "conflict_with": [
+            {
+              "last_verified": "2026-10-09",
+              "note": "r40 原入库口径（T3）；保留用于追溯",
+              "source_date": "2026-10-09",
+              "source_tier": "T3",
+              "source_url": "https://mirrorfrog.com/docs/open-dataset/",
+              "unit": "n/a",
+              "value": "未公开"
+            },
+            {
+              "last_verified": "2026-10-09",
+              "note": "Atlas 800I A3 推理超节点白皮书口径（T1，整机级）",
+              "source_date": "2026-10-09",
+              "source_tier": "T1",
+              "source_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/5f99170196404c5f90a7d0638c613652/M3T1A669N1270815470069330053/Atlas 800I A3 超节点 技术白皮书 07.pdf",
+              "unit": "TFLOPS",
+              "value": "150"
+            }
+          ],
+          "last_verified": "2026-10-09",
+          "note": "Atlas 800T A3 超节点技术白皮书（整机级，训练）",
           "source_date": "2026-10-09",
-          "source_url": "https://mirrorfrog.com/docs/open-dataset/",
-          "unit": "n/a",
-          "value": "未公开"
+          "source_tier": "T1",
+          "source_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf",
+          "unit": "TFLOPS",
+          "value": "198/165"
         },
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1076,7 +1390,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1084,7 +1400,9 @@
         "framework_support": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1092,7 +1410,9 @@
         "host_interface": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1100,7 +1420,9 @@
         "inference_engine": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.sglang.io/platforms/ascend/ascend_npu.html",
           "unit": "n/a",
           "value": "vLLM（vllm-ascend 后端）、SGLang（基于 CANN 9.0.0/9.1.0 镜像）"
@@ -1108,7 +1430,9 @@
         "instruction_set": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
           "unit": "n/a",
           "value": "未公开"
@@ -1116,7 +1440,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1124,7 +1450,9 @@
         "int8_tops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
           "unit": "TOPS",
           "value": "1500-1600"
@@ -1132,7 +1460,9 @@
         "interconnect_bw": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
           "unit": "GB/s",
           "value": "784（HCCS 片间互联）+ 392（UB）"
@@ -1140,7 +1470,9 @@
         "launch_date": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "n/a",
           "value": "2025-Q1 起量产发货"
@@ -1149,22 +1481,29 @@
           "confidence": "verified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "官方口径 3.2 TB/s，部分来源记 1.8 TB/s",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
               "unit": "GB/s",
               "value": "1800"
             },
             {
+              "last_verified": "2026-10-09",
               "note": "该数值实为 HCCS 片间互联带宽，非显存带宽",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
               "unit": "GB/s",
               "value": "784"
             }
           ],
+          "last_verified": "2026-10-09",
+          "note": "白皮书原文：带宽速率最大为 2*1600GB/s；本字段折算为 3200GB/s",
           "source_date": "2026-10-09",
-          "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+          "source_tier": "T1",
+          "source_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf",
           "unit": "GB/s",
           "value": "3200"
         },
@@ -1172,22 +1511,47 @@
           "confidence": "verified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "部分板卡配置",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
               "unit": "GB",
               "value": "96"
+            },
+            {
+              "last_verified": "2026-10-09",
+              "note": "同一白皮书的超节点整机（满配）口径",
+              "source_date": "2026-10-09",
+              "source_tier": "T1",
+              "source_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf",
+              "unit": "GB",
+              "value": "1024"
+            },
+            {
+              "last_verified": "2026-10-09",
+              "note": "Atlas 800I A3 推理超节点整机口径（T1）",
+              "source_date": "2026-10-09",
+              "source_tier": "T1",
+              "source_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/5f99170196404c5f90a7d0638c613652/M3T1A669N1270815470069330053/Atlas 800I A3 超节点 技术白皮书 07.pdf",
+              "unit": "GB",
+              "value": "1024"
             }
           ],
+          "last_verified": "2026-10-09",
+          "note": "白皮书：整机片上内存 1024GB／单模组最大 128GB；本字段取单模组口径",
           "source_date": "2026-10-09",
-          "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
+          "source_tier": "T1",
+          "source_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf",
           "unit": "GB",
           "value": "128"
         },
         "memory_type": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "n/a",
           "value": "HBM2e"
@@ -1195,7 +1559,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1203,15 +1569,19 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
         },
         "model": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "n/a",
           "value": "昇腾910C（Ascend 910C）"
@@ -1219,7 +1589,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1227,7 +1599,9 @@
         "operator_lib": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
@@ -1236,13 +1610,17 @@
           "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
               "unit": "n/a",
               "value": "7nm（SMIC N+1/N+2，第三方推测，官方未确认）"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "n/a",
           "value": "7nm（SMIC N+2）"
@@ -1250,15 +1628,19 @@
         "programming_model": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/open-dataset/",
           "unit": "n/a",
           "value": "未公开"
         },
         "series": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
           "unit": "n/a",
           "value": "昇腾 Ascend"
@@ -1266,7 +1648,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.vllm.ai/projects/ascend/en/main/index.html",
           "unit": "n/a",
           "value": "CANN（昇腾异构计算架构）"
@@ -1274,7 +1658,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "n/a",
           "value": "千亿参数 LLM 训练/推理"
@@ -1282,15 +1668,19 @@
         "tdp": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "W",
           "value": "600"
         },
         "vendor": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://flopper.io/gpu/huawei-ascend-910c",
           "unit": "n/a",
           "value": "华为"
@@ -1325,7 +1715,9 @@
         "architecture": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "GPGPU（x86 生态兼容 DCU 架构）"
@@ -1333,7 +1725,9 @@
         "bf16_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "TFLOPS",
           "value": "192"
@@ -1341,15 +1735,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "训练/推理（GPGPU）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "DCU-3G 已入安全可靠 I 级（K100 本身未单列）"
@@ -1357,7 +1755,9 @@
         "cuda_compat": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "Z200 支持 CUDA 兼容优化"
@@ -1365,7 +1765,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
@@ -1373,7 +1775,9 @@
         "form_factor": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "未公开"
@@ -1382,22 +1786,28 @@
           "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "同页另列 96，疑为 K100-AI/其他型号口径",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
               "unit": "TFLOPS",
               "value": "96"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "TFLOPS",
           "value": "192"
         },
         "fp32_tflops": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "TFLOPS",
           "value": "49"
@@ -1406,14 +1816,18 @@
           "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "型号口径不同",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
               "unit": "TFLOPS",
               "value": "约10（深算 Z100 口径）"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "TFLOPS",
           "value": "24.5（标准版 K100）"
@@ -1421,7 +1835,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "未公开"
@@ -1429,7 +1845,9 @@
         "framework_support": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "主流深度学习框架（DTK 生态）"
@@ -1437,7 +1855,9 @@
         "host_interface": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "PCIe 4.0"
@@ -1445,7 +1865,9 @@
         "inference_engine": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
@@ -1453,7 +1875,9 @@
         "instruction_set": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "x86 指令集兼容（自研 GPGPU，底层指令集兼容 x86）"
@@ -1461,7 +1885,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "未公开"
@@ -1469,7 +1895,9 @@
         "int8_tops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "TOPS",
           "value": "392"
@@ -1477,7 +1905,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
@@ -1485,15 +1915,19 @@
         "launch_date": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
         },
         "memory_bandwidth": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "GB/s",
           "value": "896"
@@ -1501,7 +1935,9 @@
         "memory_capacity": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "GB",
           "value": "64"
@@ -1510,13 +1946,17 @@
           "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
               "unit": "n/a",
               "value": "HBM2"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "HBM2e"
@@ -1524,7 +1964,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
@@ -1532,7 +1974,9 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
@@ -1540,7 +1984,9 @@
         "model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "海光DCU K100（K100-AI）"
@@ -1548,7 +1994,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
@@ -1556,7 +2004,9 @@
         "operator_lib": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
@@ -1564,7 +2014,9 @@
         "process_node": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "未公开"
@@ -1572,7 +2024,9 @@
         "programming_model": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "类 ROCm/HIP 编程模型"
@@ -1580,7 +2034,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "深算 DCU"
@@ -1588,7 +2044,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "DTK 3.0（兼容 ROCm 生态）"
@@ -1596,7 +2054,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "n/a",
           "value": "国产大模型训练与推理"
@@ -1604,15 +2064,19 @@
         "tdp": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
           "unit": "W",
           "value": "约300"
         },
         "vendor": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "海光信息技术股份有限公司"
@@ -1649,7 +2113,9 @@
         "architecture": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "自研通用 GPU 架构（自研指令集，支持标量/矢量/张量运算）"
@@ -1657,7 +2123,9 @@
         "bf16_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "未公开"
@@ -1665,15 +2133,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "训练/推理（通用 GPU，训推通用）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "KCC-V100X 芯片已入安全可靠 I 级（天垓100 本身未单列）"
@@ -1681,7 +2153,9 @@
         "cuda_compat": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "兼容国际主流 GPU 通用计算模型，支持原生算子"
@@ -1689,7 +2163,9 @@
         "custom_op": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "提供丰富编程接口拓展，支持客户自定义开发"
@@ -1697,7 +2173,9 @@
         "form_factor": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "加速卡（PCIe Gen4 x16）"
@@ -1705,7 +2183,9 @@
         "fp16_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "TFLOPS",
           "value": "128"
@@ -1713,7 +2193,9 @@
         "fp32_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "未公开"
@@ -1721,7 +2203,9 @@
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "未公开"
@@ -1729,7 +2213,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "未公开"
@@ -1737,7 +2223,9 @@
         "framework_support": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "支持国内外主流深度学习框架与加速库"
@@ -1745,7 +2233,9 @@
         "host_interface": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "PCIe Gen4.0 x16"
@@ -1753,7 +2243,9 @@
         "inference_engine": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -1761,7 +2253,9 @@
         "instruction_set": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "自研指令集，全方位支持标量、矢量、张量运算"
@@ -1769,7 +2263,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "未公开"
@@ -1777,7 +2273,9 @@
         "int8_tops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "TOPS",
           "value": "256"
@@ -1785,7 +2283,9 @@
         "interconnect_bw": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "GB/s",
           "value": "64（片间互联，双向）"
@@ -1793,7 +2293,9 @@
         "launch_date": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -1801,7 +2303,9 @@
         "memory_bandwidth": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "未公开"
@@ -1809,7 +2313,9 @@
         "memory_capacity": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "GB",
           "value": "32"
@@ -1817,7 +2323,9 @@
         "memory_type": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "HBM2"
@@ -1825,7 +2333,9 @@
         "migration_tool": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "应用迁移成本低、无需重新开发；适配 x86/Arm/MIPS 等多类 CPU 架构"
@@ -1833,7 +2343,9 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -1841,7 +2353,9 @@
         "model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "天垓100（BI-V100）"
@@ -1849,7 +2363,9 @@
         "operator_coverage": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "种",
           "value": "支持 200 余种 AI 模型（数量持续增加）"
@@ -1857,7 +2373,9 @@
         "operator_lib": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "自研核心算子库 + 高性能函数库（智铠/天垓同源）"
@@ -1865,7 +2383,9 @@
         "process_node": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -1873,7 +2393,9 @@
         "programming_model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "通用 GPU 编程模型（自研指令集）"
@@ -1881,7 +2403,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "天垓（通用 GPU 架构，BI-V100）"
@@ -1889,7 +2413,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "n/a",
           "value": "自研软件栈（核心 IP/系统架构/指令集/核心算子均由天数团队开发）"
@@ -1897,7 +2423,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "通用计算/科学计算/大模型训练（百亿级参数已验证）"
@@ -1905,15 +2433,19 @@
         "tdp": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
           "unit": "W",
           "value": "250"
         },
         "vendor": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "上海天数智芯半导体股份有限公司"
@@ -1949,7 +2481,9 @@
         "architecture": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "天数智芯自研通用 GPU 架构（天垓100 升级版）"
@@ -1957,7 +2491,9 @@
         "bf16_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -1965,15 +2501,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "训练/推理（升级版通用 GPU）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "KCC-V100X 芯片已入安全可靠 I 级（天垓150 本身未单列）"
@@ -1981,7 +2521,9 @@
         "cuda_compat": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "兼容国际主流 GPU 通用计算模型"
@@ -1989,7 +2531,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -1997,7 +2541,9 @@
         "form_factor": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2005,8 +2551,10 @@
         "fp16_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "note": "【参考·非本卡冲突】128（天垓100 现役口径） TFLOPS-前代值（https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/）",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "TFLOPS",
           "value": "未公开（推测 150-200）"
@@ -2014,7 +2562,9 @@
         "fp32_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2022,7 +2572,9 @@
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2030,7 +2582,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2038,7 +2592,9 @@
         "framework_support": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "国内外主流深度学习框架"
@@ -2046,7 +2602,9 @@
         "host_interface": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "PCIe Gen4（推测）"
@@ -2054,7 +2612,9 @@
         "inference_engine": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2062,7 +2622,9 @@
         "instruction_set": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2070,7 +2632,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2078,8 +2642,10 @@
         "int8_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "note": "【参考·非本卡冲突】256（天垓100 现役口径） TOPS-前代值（https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/）",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "TOPS",
           "value": "未公开（推测 300-400）"
@@ -2087,7 +2653,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2095,7 +2663,9 @@
         "launch_date": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2103,7 +2673,9 @@
         "memory_bandwidth": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开（相较前代有提升）"
@@ -2111,7 +2683,9 @@
         "memory_capacity": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "GB",
           "value": "推测 32-64"
@@ -2119,7 +2693,9 @@
         "memory_type": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "推测 HBM2/HBM3"
@@ -2127,7 +2703,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2135,7 +2713,9 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2143,7 +2723,9 @@
         "model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "天垓150"
@@ -2151,7 +2733,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2159,7 +2743,9 @@
         "operator_lib": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "支持国内外主流 AI 生态与深度学习框架及原生算子"
@@ -2167,7 +2753,9 @@
         "process_node": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2175,7 +2763,9 @@
         "programming_model": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2183,7 +2773,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "天垓（天垓100 升级版）"
@@ -2191,7 +2783,9 @@
         "software_stack": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "天数智芯自研软件栈（与天垓100 同源）"
@@ -2199,7 +2793,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "大规模 AI 训练与复杂计算"
@@ -2207,7 +2803,9 @@
         "tdp": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "未公开"
@@ -2215,7 +2813,9 @@
         "vendor": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
           "unit": "n/a",
           "value": "上海天数智芯半导体股份有限公司"
@@ -2248,9 +2848,11 @@
       "field_count": 34,
       "fields": {
         "architecture": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "天数智芯第二代通用 GPU 架构（800 余条通用指令集）"
@@ -2258,7 +2860,9 @@
         "bf16_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2266,15 +2870,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "推理（支持推理及训练一体化）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "KCC-V100X 芯片已入安全可靠 I 级（智铠100 本身未单列）"
@@ -2282,7 +2890,9 @@
         "cuda_compat": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "延续天垓100 生态兼容策略，开箱即用"
@@ -2290,7 +2900,9 @@
         "custom_op": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "便于客户自定义开发（灵活支持各种算法模型）"
@@ -2298,7 +2910,9 @@
         "form_factor": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "产品卡（视频解码 + 推理）"
@@ -2306,7 +2920,9 @@
         "fp16_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "TFLOPS",
           "value": "96"
@@ -2314,7 +2930,9 @@
         "fp32_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "TFLOPS",
           "value": "24"
@@ -2322,7 +2940,9 @@
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2330,7 +2950,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2338,7 +2960,9 @@
         "framework_support": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "支持国内外主流深度学习开发框架"
@@ -2346,7 +2970,9 @@
         "host_interface": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2354,7 +2980,9 @@
         "inference_engine": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2362,7 +2990,9 @@
         "instruction_set": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "第二代通用 GPU 架构，800 余条通用指令集"
@@ -2370,7 +3000,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2378,7 +3010,9 @@
         "int8_tops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "TOPS",
           "value": "384"
@@ -2386,7 +3020,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2394,7 +3030,9 @@
         "launch_date": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2402,7 +3040,9 @@
         "memory_bandwidth": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "GB/s",
           "value": "800（理论峰值）"
@@ -2410,7 +3050,9 @@
         "memory_capacity": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2418,7 +3060,9 @@
         "memory_type": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2426,7 +3070,9 @@
         "migration_tool": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "延续天垓100 开发易迁移特点"
@@ -2434,7 +3080,9 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2442,7 +3090,9 @@
         "model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "智铠100"
@@ -2450,7 +3100,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2458,7 +3110,9 @@
         "operator_lib": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "高性能函数库（丰富编程接口拓展）"
@@ -2466,15 +3120,19 @@
         "process_node": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
         },
         "programming_model": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "通用 GPU 编程（800 余条通用指令集）"
@@ -2482,7 +3140,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "智铠（第二代通用 GPU 架构）"
@@ -2490,7 +3150,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "天数智芯自研软件栈（延续天垓100 生态兼容策略）"
@@ -2498,7 +3160,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "智慧城市/港口/交通/制造/电力/语音/医疗/教育/金融等推理+增量训练"
@@ -2506,7 +3170,9 @@
         "tdp": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
@@ -2514,7 +3180,9 @@
         "vendor": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T2",
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "上海天数智芯半导体股份有限公司"
@@ -2550,7 +3218,9 @@
         "architecture": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "自研昆仑芯 XPU-P 架构"
@@ -2558,7 +3228,9 @@
         "bf16_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2566,15 +3238,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "训练/推理（OAM 旗舰）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "本批次安全可靠 I 级名单未含昆仑芯"
@@ -2582,7 +3258,9 @@
         "cuda_compat": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "页面含 CUDA 兼容性条目（未给量化）"
@@ -2590,7 +3268,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2598,7 +3278,9 @@
         "form_factor": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "OAM 模组"
@@ -2606,8 +3288,10 @@
         "fp16_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "note": "【参考·非本卡冲突】148（NVIDIA H20 对位） TFLOPS-对位参考值，非本卡规格（https://mirrorfrog.com/docs/cards/others/kunlun-p800/）",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "TFLOPS",
           "value": "345"
@@ -2615,7 +3299,9 @@
         "fp32_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2623,7 +3309,9 @@
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2631,7 +3319,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2639,7 +3329,9 @@
         "framework_support": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2647,7 +3339,9 @@
         "host_interface": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2655,7 +3349,9 @@
         "inference_engine": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.kunlunxin.com/product/2873.html",
           "unit": "n/a",
           "value": "vLLM（vLLM-Kunlun 后端）"
@@ -2663,7 +3359,9 @@
         "instruction_set": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2671,7 +3369,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2679,7 +3379,9 @@
         "int8_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2687,7 +3389,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2695,7 +3399,9 @@
         "launch_date": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "2024-03"
@@ -2703,7 +3409,9 @@
         "memory_bandwidth": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "GB/s",
           "value": "2400"
@@ -2711,7 +3419,9 @@
         "memory_capacity": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "GB",
           "value": "96"
@@ -2719,7 +3429,9 @@
         "memory_type": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "HBM3"
@@ -2727,7 +3439,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2735,15 +3449,19 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
         },
         "model": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "昆仑芯P800（P800）"
@@ -2751,7 +3469,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2759,7 +3479,9 @@
         "operator_lib": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2767,7 +3489,9 @@
         "process_node": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2775,7 +3499,9 @@
         "programming_model": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "未公开"
@@ -2783,7 +3509,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "昆仑芯"
@@ -2791,7 +3519,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.kunlunxin.com/product/2873.html",
           "unit": "n/a",
           "value": "昆仑芯自研软件栈 + vLLM-Kunlun 后端"
@@ -2799,7 +3529,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "DeepSeek-V3/R1 671B 满血版推理"
@@ -2807,7 +3539,9 @@
         "tdp": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "W",
           "value": "约400"
@@ -2815,7 +3549,9 @@
         "vendor": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
           "unit": "n/a",
           "value": "昆仑芯（北京）科技有限公司"
@@ -2850,7 +3586,9 @@
         "architecture": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.kunlunxin.com/product/2873.html",
           "unit": "n/a",
           "value": "自研昆仑芯 XPU 架构"
@@ -2858,7 +3596,9 @@
         "bf16_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -2866,15 +3606,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "训练/推理"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "本批次安全可靠 I 级名单未含昆仑芯"
@@ -2882,7 +3626,9 @@
         "cuda_compat": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "提供 CUDA 兼容适配（页面含 CUDA 兼容性条目，未给量化）"
@@ -2890,7 +3636,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -2898,7 +3646,9 @@
         "form_factor": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -2906,7 +3656,9 @@
         "fp16_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "TFLOPS",
           "value": "128"
@@ -2914,7 +3666,9 @@
         "fp32_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "TFLOPS",
           "value": "32"
@@ -2922,7 +3676,9 @@
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -2930,7 +3686,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -2938,7 +3696,9 @@
         "framework_support": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -2946,7 +3706,9 @@
         "host_interface": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "PCIe Gen4 x16"
@@ -2954,7 +3716,9 @@
         "inference_engine": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.kunlunxin.com/product/2873.html",
           "unit": "n/a",
           "value": "vLLM（vLLM-Kunlun 后端）"
@@ -2962,7 +3726,9 @@
         "instruction_set": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.kunlunxin.com/product/2873.html",
           "unit": "n/a",
           "value": "通用和专用指令集融合（自研 XPU-R 架构）"
@@ -2970,7 +3736,9 @@
         "int16_tops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "TOPS",
           "value": "128"
@@ -2978,7 +3746,9 @@
         "int8_tops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "TOPS",
           "value": "256"
@@ -2986,7 +3756,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -2994,7 +3766,9 @@
         "launch_date": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -3002,7 +3776,9 @@
         "memory_bandwidth": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "GB/s",
           "value": "512"
@@ -3010,7 +3786,9 @@
         "memory_capacity": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "GB",
           "value": "16/32"
@@ -3018,7 +3796,9 @@
         "memory_type": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "GDDR6"
@@ -3026,7 +3806,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "提供模型迁移工具（页面提及，未给出名称）"
@@ -3034,15 +3816,19 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
         },
         "model": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "昆仑芯R200（R200）"
@@ -3050,7 +3836,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -3058,7 +3846,9 @@
         "operator_lib": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -3066,7 +3856,9 @@
         "process_node": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "7nm"
@@ -3074,7 +3866,9 @@
         "programming_model": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "未公开"
@@ -3082,7 +3876,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://www.kunlunxin.com/product/2873.html",
           "unit": "n/a",
           "value": "昆仑芯（第二代）"
@@ -3090,7 +3886,9 @@
         "software_stack": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "昆仑芯自研软件栈 + vLLM 后端（vLLM-Kunlun）"
@@ -3098,7 +3896,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "推理为主（INT8 256 TOPS）"
@@ -3106,7 +3906,9 @@
         "tdp": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "W",
           "value": "150"
@@ -3114,7 +3916,9 @@
         "vendor": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/baidu/r200/",
           "unit": "n/a",
           "value": "昆仑芯（北京）科技有限公司"
@@ -3149,7 +3953,9 @@
         "architecture": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "曲院（MUSA 统一架构）"
@@ -3157,7 +3963,9 @@
         "bf16_tflops": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "TFLOPS",
           "value": "100"
@@ -3165,15 +3973,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "训练/推理/图形渲染（全功能元计算卡）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "PH100 已入安全可靠 I 级（S4000 本身未单列）"
@@ -3181,7 +3993,9 @@
         "cuda_compat": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
           "value": "MUSA/MUDA CUDA 兼容后端（支持 CUDA 兼容模式运行）"
@@ -3189,7 +4003,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3197,7 +4013,9 @@
         "form_factor": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "全功能加速卡（外接供电，标准 CPU-8Pin）"
@@ -3205,7 +4023,9 @@
         "fp16_tflops": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "TFLOPS",
           "value": "50"
@@ -3214,14 +4034,18 @@
           "confidence": "verified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "同页另列 30，型号归属存疑",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
               "unit": "TFLOPS",
               "value": "30"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "TFLOPS",
           "value": "25"
@@ -3229,7 +4053,9 @@
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3237,7 +4063,9 @@
         "fp8_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3245,7 +4073,9 @@
         "framework_support": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "DeepSpeed / ColossalAI / Megatron / ONNXRuntime-MUSA / Llama.cpp-MUSA"
@@ -3254,14 +4084,18 @@
           "confidence": "single-source",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "同页另列 PCIe 4.0，疑为 S80/其他型号",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
               "unit": "n/a",
               "value": "PCIe 4.0"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "PCIe 5.0 x16"
@@ -3269,7 +4103,9 @@
         "inference_engine": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "vLLM-MUSA / SGLang-MUSA / ONNXRuntime-MUSA / Llama.cpp-MUSA（M1000 同源生态）"
@@ -3277,7 +4113,9 @@
         "instruction_set": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "未公开"
@@ -3285,7 +4123,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3293,7 +4133,9 @@
         "int8_tops": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "TOPS",
           "value": "200"
@@ -3301,7 +4143,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3309,7 +4153,9 @@
         "launch_date": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
           "value": "未公开"
@@ -3317,7 +4163,9 @@
         "memory_bandwidth": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "GB/s",
           "value": "768"
@@ -3325,7 +4173,9 @@
         "memory_capacity": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "GB",
           "value": "48"
@@ -3333,7 +4183,9 @@
         "memory_type": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "GDDR6"
@@ -3341,7 +4193,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3349,7 +4203,9 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3357,7 +4213,9 @@
         "model": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "MTT S4000"
@@ -3365,7 +4223,9 @@
         "operator_coverage": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3373,7 +4233,9 @@
         "operator_lib": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开"
@@ -3382,14 +4244,18 @@
           "confidence": "unverified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "该页 12nm 与 48GB/16GB 规格同行，型号归属存疑",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
               "unit": "n/a",
               "value": "12nm"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
           "unit": "n/a",
           "value": "未公开（推测 7nm/6nm）"
@@ -3397,7 +4263,9 @@
         "programming_model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "MUSA 统一编程模型"
@@ -3405,7 +4273,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "MTT（MUSA 统一架构）"
@@ -3413,7 +4283,9 @@
         "software_stack": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "MUSA 软件栈（面向大规模集群分布式计算优化）"
@@ -3421,7 +4293,9 @@
         "target_workload": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "千亿参数 LLM 预训练/微调/推理 + 图形渲染/多媒体/科学计算"
@@ -3429,15 +4303,19 @@
         "tdp": {
           "confidence": "verified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
           "unit": "W",
           "value": "450"
         },
         "vendor": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "摩尔线程智能科技（北京）股份有限公司"
@@ -3475,7 +4353,9 @@
         "architecture": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "MUSA 统一架构（4096 个 MUSA Core）"
@@ -3483,7 +4363,9 @@
         "bf16_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "TFLOPS",
           "value": "400"
@@ -3491,15 +4373,19 @@
         "category": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
           "value": "训练/推理（训推一体，旗舰）"
         },
         "certification": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "PH100 已入安全可靠 I 级（S5000 本身未单列）"
@@ -3507,7 +4393,9 @@
         "cuda_compat": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
           "value": "MUSA/MUDA CUDA 兼容后端"
@@ -3515,7 +4403,9 @@
         "custom_op": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
@@ -3523,7 +4413,9 @@
         "form_factor": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
@@ -3531,7 +4423,9 @@
         "fp16_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "TFLOPS",
           "value": "400"
@@ -3539,7 +4433,9 @@
         "fp32_tflops": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "TFLOPS",
           "value": "100"
@@ -3547,15 +4443,19 @@
         "fp64_tflops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
         },
         "fp8_tflops": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "TFLOPS",
           "value": "1000"
@@ -3563,7 +4463,9 @@
         "framework_support": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "摩尔线程高性能 FP8 训练框架（MUSA 生态）"
@@ -3571,7 +4473,9 @@
         "host_interface": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
@@ -3579,7 +4483,9 @@
         "inference_engine": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T1",
           "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "SGLang-MUSA-M1000 / vLLM-MUSA-M1000 / ONNXRuntime-MUSA-M1000"
@@ -3587,7 +4493,9 @@
         "instruction_set": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "SIMT 指令集，自研（类 PTX）"
@@ -3595,7 +4503,9 @@
         "int16_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
@@ -3603,7 +4513,9 @@
         "int8_tops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
@@ -3611,7 +4523,9 @@
         "interconnect_bw": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
@@ -3619,23 +4533,29 @@
         "launch_date": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
           "value": "已规模量产（支持万亿参数大模型训练）"
         },
         "memory_bandwidth": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "GB/s",
           "value": "1600"
         },
         "memory_capacity": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "GB",
           "value": "80"
@@ -3644,14 +4564,18 @@
           "confidence": "unverified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "与 S5000 页「未公开/HBM 级」口径冲突",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
               "unit": "n/a",
               "value": "GDDR6"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "官方未公开颗粒类型（1.6 TB/s 带宽为 HBM 级）"
@@ -3659,7 +4583,9 @@
         "migration_tool": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
@@ -3667,15 +4593,19 @@
         "missing_ops": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开（页面未列缺失清单）"
         },
         "model": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "MTT S5000"
@@ -3683,7 +4613,9 @@
         "operator_coverage": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "约 70-80%（该页口径）"
@@ -3691,7 +4623,9 @@
         "operator_lib": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
@@ -3700,14 +4634,18 @@
           "confidence": "unverified",
           "conflict_with": [
             {
+              "last_verified": "2026-10-09",
               "note": "该页 12nm 与 48GB/16GB 规格同行，型号归属存疑",
               "source_date": "2026-10-09",
+              "source_tier": "T3",
               "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
               "unit": "n/a",
               "value": "12nm"
             }
           ],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "TSMC 6nm（推测）"
@@ -3715,7 +4653,9 @@
         "programming_model": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
           "value": "MUSA 统一编程模型"
@@ -3723,7 +4663,9 @@
         "series": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "MTT（MUSA 统一架构）"
@@ -3731,7 +4673,9 @@
         "software_stack": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
           "value": "MUSA 2.0 软件栈"
@@ -3739,7 +4683,9 @@
         "target_workload": {
           "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
           "value": "万亿参数大模型训练/推理（训推一体）"
@@ -3747,15 +4693,19 @@
         "tdp": {
           "confidence": "unverified",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-10-09",
+          "source_tier": "T3",
           "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
           "unit": "n/a",
           "value": "未公开"
         },
         "vendor": {
-          "confidence": "verified",
+          "confidence": "single-source",
           "conflict_with": [],
+          "last_verified": "2026-10-09",
           "source_date": "2026-05-26",
+          "source_tier": "T2",
           "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
           "unit": "n/a",
           "value": "摩尔线程智能科技（北京）股份有限公司"

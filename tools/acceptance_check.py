@@ -24,6 +24,19 @@ nonempty = 0
 orphan = []
 allurls = set()
 conflicts = []
+
+
+def is_archived(slug):
+    """归档存在性：raw/<slug>.*（html/pdf/txt 均可，与 validate.py 同口径）。"""
+    if not slug:
+        return False
+    rd = os.path.join(SITE, "raw")
+    try:
+        names = os.listdir(rd)
+    except OSError:
+        return False
+    return any(n == slug or n.startswith(slug + ".") for n in names)
+
 for c in chips:
     for k, v in c["fields"].items():
         tot += 1
@@ -31,9 +44,7 @@ for c in chips:
         if su:
             nonempty += 1
             allurls.add(su)
-            if su not in URL2SLUG:
-                orphan.append((c["model"], k, su))
-            elif not os.path.exists(os.path.join(SITE, "raw", URL2SLUG[su] + ".html")):
+            if su not in URL2SLUG or not is_archived(URL2SLUG[su]):
                 orphan.append((c["model"], k, su))
         if v.get("conflict_with"):
             conflicts.append((c["model"], k, v["value"], v["conflict_with"]))

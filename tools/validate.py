@@ -9,7 +9,10 @@
  R2 非空: value/unit/source_url/source_date 均不得为空（"无来源不入库"）。
  R3 日期: source_date 形如 YYYY-MM-DD。
  R4 置信: confidence ∈ {verified, single-source, unverified}。
- R5 可追溯: source_url 必须命中 tools/collect/sources.json 且对应 raw/<slug>.html 已归档存在。
+ R5 可追溯: source_url 必须命中 tools/collect/sources.json 且对应 raw/<slug>.* 已归档存在（支持 html/pdf/txt 等原始格式）。
+ R8 分级: 每字段必须含 source_tier ∈ {T1,T2,T3}（D2：每字段必带来源分级），且与来源域名判定一致。
+ R9 铁律: confidence=verified 的字段必须至少有一个 T1（厂商官方）来源（source_url 或 conflict_with 之一）。
+ R10 时效: 每字段必须含 last_verified（YYYY-MM-DD 静态日期，禁构建时间戳）。
  R6 单位: 值为数字型（含 约/区间/分数）时 unit 必须为数字单位 {GB, GB/s, TFLOPS, TOPS, W}；
            unit 为数字单位时 value 必须含数字。
  R7 冲突登记: conflict_with 每项必须含 value/unit/source_url/source_date 且 source_url 可追溯；
@@ -28,6 +31,21 @@ NUMRE = re.compile(r"^(约)?\d+(\.\d+)?([\-/~](约)?\d+(\.\d+)?)+$|^(约)?\d+(\.
 DATERE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 MARKERS = ("冲突", "存疑", "口径不一", "不一致")
 FIELDS6 = ("value", "unit", "source_url", "source_date", "confidence", "conflict_with")
+TIERSET = {"T1", "T2", "T3"}
+LASTVERIF = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import tiers  # noqa: E402  # 与 build/migrate 共用同一套域名分级口径
+
+
+def is_archived(slug):
+    """归档存在性：raw/<slug>.*（原始格式保留，html/pdf/txt 均可）。"""
+    if not slug:
+        return False
+    try:
+        names = os.listdir(RAW)
+    except OSError:
+        return False
+    return any(n == slug or n.startswith(slug + ".") for n in names)
 
 
 def load_sources():
@@ -74,8 +92,8 @@ def validate_chip(obj, url2slug):
         if u and str(u).strip():
             if u not in url2slug:
                 errs.append("R5 %s source_url 未在 sources.json 登记" % k)
-            elif not os.path.exists(os.path.join(RAW, url2slug[u] + ".html")):
-                errs.append("R5 %s 来源 raw/%s.html 未归档" % (k, url2slug[u]))
+            elif not is_archived(url2slug[u]):
+                errs.append("R5 %s 来源 raw/%s.* 未归档" % (k, url2slug[u]))
         unit = str(v.get("unit", ""))
         if _numeric_value(v.get("value", "")) and unit not in NUM_UNITS:
             errs.append("R6 %s 数字值 %r 单位非法: %r" % (k, v.get("value"), unit))
@@ -95,21 +113,40 @@ def validate_chip(obj, url2slug):
             cu = c.get("source_url", "")
             if cu and cu not in url2slug:
                 errs.append("R7 %s conflict[%d] source_url 未登记" % (k, j))
-            elif cu and not os.path.exists(os.path.join(RAW, url2slug[cu] + ".html")):
+            elif cu and not is_archived(url2slug[cu]):
                 errs.append("R7 %s conflict[%d] 来源未归档" % (k, j))
         if any(m in str(v.get("value", "")) for m in MARKERS) and not cw:
             errs.append("R7 %s 值含冲突标记但未登记 conflict_with" % k)
+        # R8 来源分级（D2）：每字段必带 source_tier，且与来源域名判定一致
+        st = v.get("source_tier")
+        if st not in TIERSET:
+            errs.append("R8 %s source_tier 缺失或非法: %r" % (k, st))
+        else:
+            exp = tiers.tier_of(u)
+            if st != exp:
+                errs.append("R8 %s source_tier=%s 与来源域名判定 %s 不一致" % (k, st, exp))
+        # R9 铁律（D2）：verified 必须至少有一个 T1 官方来源
+        if v.get("confidence") == "verified":
+            cand = [u] + [c.get("source_url") for c in cw if isinstance(c, dict)]
+            if not any(tiers.tier_of(x) == "T1" for x in cand if x):
+                errs.append("R9 %s confidence=verified 但无任何 T1 官方来源" % k)
+        # R10 时效（D4）：字段级 last_verified（静态日期）
+        lv = str(v.get("last_verified") or "").strip()
+        if not lv:
+            errs.append("R10 %s last_verified 为空" % k)
+        elif not LASTVERIF.match(lv):
+            errs.append("R10 %s last_verified 非法: %r" % (k, lv))
     return errs
 
 
 def run():
     srcs = load_sources()
     url2slug = {u: k for k, u in srcs.items()}
-    archived = sorted(f[:-5] for f in os.listdir(RAW) if f.endswith(".html"))
+    archived = sorted(os.path.splitext(f)[0] for f in os.listdir(RAW) if not f.startswith("."))
     out = {"schema_version": "0.1", "validator": "tools/validate.py",
            "sources_registered": len(srcs), "archived_raw": len(archived),
            "archived_bytes": sum(os.path.getsize(os.path.join(RAW, f))
-                                 for f in os.listdir(RAW) if f.endswith(".html")),
+                                 for f in os.listdir(RAW) if not f.startswith(".")),
            "orphan_sources": sorted(set(srcs) - set(archived)),
            "chips": [], "passed": 0, "failed": 0}
     for fn in sorted(os.listdir(CHIPS)):

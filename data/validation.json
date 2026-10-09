@@ -1,9 +1,9 @@
 {
  "schema_version": "0.1",
  "validator": "tools/validate.py",
- "sources_registered": 29,
- "archived_raw": 29,
- "archived_bytes": 2885369,
+ "sources_registered": 33,
+ "archived_raw": 34,
+ "archived_bytes": 71859775,
  "orphan_sources": [],
  "chips": [
   {

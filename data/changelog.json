@@ -1,0 +1,674 @@
+{
+  "date": "2026-10-09",
+  "note": "R44/P6-P10 字段级变更记录：来源分级(D2)、T1 官方证据提升、置信度降级、登记新增官方来源。",
+  "new_sources": [
+    {
+      "slug": "cambricon-mlu370x8-official",
+      "url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406",
+      "tier": "T1",
+      "bytes": 39639
+    },
+    {
+      "slug": "huawei-atlas800t-a2-whitepaper",
+      "url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf",
+      "tier": "T1",
+      "bytes": 3570178
+    },
+    {
+      "slug": "huawei-atlas800t-a3-whitepaper",
+      "url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf",
+      "tier": "T1",
+      "bytes": 32676276
+    },
+    {
+      "slug": "huawei-atlas800i-a3-whitepaper",
+      "url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/5f99170196404c5f90a7d0638c613652/M3T1A669N1270815470069330053/Atlas 800I A3 超节点 技术白皮书 07.pdf",
+      "tier": "T1",
+      "bytes": 32675617
+    }
+  ],
+  "entries": [
+    {
+      "date": "2026-10-09",
+      "chip": "MTT S4000",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "MTT S4000",
+      "field": "vendor",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "MTT S5000",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "MTT S5000",
+      "field": "fp8_tflops",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "MTT S5000",
+      "field": "memory_bandwidth",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "MTT S5000",
+      "field": "memory_capacity",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "MTT S5000",
+      "field": "model",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "MTT S5000",
+      "field": "vendor",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "天垓100",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "天垓100",
+      "field": "vendor",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "天垓150",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "scope": "card",
+      "change": "t1-promotion",
+      "from": "字段主来源为聚合源(T3)",
+      "to": "字段主来源改为厂商官方来源(T1)：cambricon-mlu370x8-official",
+      "reason": "R44/D2：T1 官方证据到位，verified 仅可由 T1 支撑",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "bf16_tflops",
+      "change": "value/source",
+      "from": "96（T3，mirrorfrog-mlu370x8）",
+      "to": "96（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "fp16_tflops",
+      "change": "value/source",
+      "from": "96（T3，mirrorfrog-mlu370x8）",
+      "to": "96（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "fp32_tflops",
+      "change": "value/source",
+      "from": "24（T3，mirrorfrog-mlu370x8）",
+      "to": "24（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "int16_tops",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "int8_tops",
+      "change": "value/source",
+      "from": "256（T3，mirrorfrog-mlu370x8）",
+      "to": "256（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "memory_bandwidth",
+      "change": "value/source",
+      "from": "614.4（T3，mirrorfrog-mlu370x8）",
+      "to": "614.4（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "memory_capacity",
+      "change": "value/source",
+      "from": "48（T3，mirrorfrog-mlu370x8）",
+      "to": "48（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "memory_type",
+      "change": "value/source",
+      "from": "LPDDR5（T3，mirrorfrog-mlu370x8）",
+      "to": "LPDDR5（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "model",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "process_node",
+      "change": "value/source",
+      "from": "7nm（T3，mirrorfrog-mlu370x8）",
+      "to": "7nm（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "tdp",
+      "change": "value/source",
+      "from": "250（T3，mirrorfrog-mlu370x8）",
+      "to": "250（T1，cambricon-mlu370x8-official）",
+      "reason": "寒武纪官网产品页（catid=406，2026-10-09 复抓）",
+      "from_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
+      "to_url": "https://www.cambricon.com/index.php?m=content&c=index&a=lists&catid=406"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元370-X8",
+      "field": "vendor",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元590",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元590",
+      "field": "fp16_tflops",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元590",
+      "field": "int8_tops",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元590",
+      "field": "memory_capacity",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元590",
+      "field": "memory_type",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元590",
+      "field": "model",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元590",
+      "field": "process_node",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "思元590",
+      "field": "vendor",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昆仑芯P800",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昆仑芯P800",
+      "field": "model",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昆仑芯R200",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昆仑芯R200",
+      "field": "model",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "scope": "card",
+      "change": "t1-promotion",
+      "from": "字段主来源为聚合源(T3)",
+      "to": "字段主来源改为厂商官方来源(T1)：huawei-atlas800t-a2-whitepaper",
+      "reason": "R44/D2：T1 官方证据到位，verified 仅可由 T1 支撑",
+      "to_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "fp16_tflops",
+      "change": "value/source",
+      "from": "320（T3，mirrorfrog-910b）",
+      "to": "313/376（T1，huawei-atlas800t-a2-whitepaper）",
+      "reason": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
+      "from_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
+      "to_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "fp32_tflops",
+      "change": "value/source",
+      "from": "51.2（T3，mirrorfrog-910b）",
+      "to": "82/99（T1，huawei-atlas800t-a2-whitepaper）",
+      "reason": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
+      "from_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
+      "to_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "memory_bandwidth",
+      "change": "value/source",
+      "from": "1600（T3，flopper-910b）",
+      "to": "1600（T1，huawei-atlas800t-a2-whitepaper）",
+      "reason": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
+      "from_url": "https://flopper.io/gpu/huawei-ascend-910b",
+      "to_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "memory_capacity",
+      "change": "value/source",
+      "from": "64（T3，flopper-910b）",
+      "to": "64（T1，huawei-atlas800t-a2-whitepaper）",
+      "reason": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
+      "from_url": "https://flopper.io/gpu/huawei-ascend-910b",
+      "to_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "memory_type",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "model",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "process_node",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "series",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "tdp",
+      "change": "value/source",
+      "from": "400（T3，flopper-910b）",
+      "to": "400（T1，huawei-atlas800t-a2-whitepaper）",
+      "reason": "Atlas 800T A2 训练服务器技术白皮书（e.huawei.com，单AI处理器/NPU规格）",
+      "from_url": "https://flopper.io/gpu/huawei-ascend-910b",
+      "to_url": "https://e.huawei.com/marketingcloud/pep/asset/20000001/Material/b0b253c4d5da4e05ba80a39e3dc65fd2/M3T1A669N1268492946326892689/Atlas 800T A2 训练服务器 技术白皮书 16.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910B",
+      "field": "vendor",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "scope": "card",
+      "change": "t1-promotion",
+      "from": "字段主来源为聚合源(T3)",
+      "to": "字段主来源改为厂商官方来源(T1)：huawei-atlas800t-a3-whitepaper",
+      "reason": "R44/D2：T1 官方证据到位，verified 仅可由 T1 支撑",
+      "to_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "architecture",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "fp16_tflops",
+      "change": "value/source",
+      "from": "800（T3，flopper-910c）",
+      "to": "752/626（T1，huawei-atlas800t-a3-whitepaper）",
+      "reason": "Atlas 800T A3 超节点技术白皮书（整机级，训练）",
+      "from_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "to_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "fp32_tflops",
+      "change": "value/source",
+      "from": "未公开（T3，mirrorfrog-dataset）",
+      "to": "198/165（T1，huawei-atlas800t-a3-whitepaper）",
+      "reason": "Atlas 800T A3 超节点技术白皮书（整机级，训练）",
+      "from_url": "https://mirrorfrog.com/docs/open-dataset/",
+      "to_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "memory_bandwidth",
+      "change": "value/source",
+      "from": "3200（T3，flopper-910c）",
+      "to": "3200（T1，huawei-atlas800t-a3-whitepaper）",
+      "reason": "白皮书原文：带宽速率最大为 2*1600GB/s；本字段折算为 3200GB/s",
+      "from_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "to_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "memory_capacity",
+      "change": "value/source",
+      "from": "128（T3，flopper-910c）",
+      "to": "128（T1，huawei-atlas800t-a3-whitepaper）",
+      "reason": "白皮书：整机片上内存 1024GB／单模组最大 128GB；本字段取单模组口径",
+      "from_url": "https://flopper.io/gpu/huawei-ascend-910c",
+      "to_url": "https://e-file.huawei.com/marketingcloud/pep/asset/20000001/Material/90b631ded60d42b09bedfc9b790f355b/M3T1A669N1268493243019300870/Atlas 800T A3 超节点 技术白皮书 07.pdf"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "memory_type",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "model",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "series",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "昇腾910C",
+      "field": "vendor",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "智铠100",
+      "field": "architecture",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "智铠100",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "智铠100",
+      "field": "programming_model",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "海光DCU K100",
+      "field": "certification",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "海光DCU K100",
+      "field": "fp32_tflops",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "海光DCU K100",
+      "field": "memory_bandwidth",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    },
+    {
+      "date": "2026-10-09",
+      "chip": "海光DCU K100",
+      "field": "vendor",
+      "change": "confidence",
+      "from": "verified",
+      "to": "single-source",
+      "reason": "R44/D2 硬规则：该字段无 T1（厂商官方）来源，verified 不成立"
+    }
+  ]
+}

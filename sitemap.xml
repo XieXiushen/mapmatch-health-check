@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/</loc></url>
+  <url><loc>https://xiexiushen.github.io/mapmatch-health-check/changelog/</loc></url>
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/chip/cambricon-mlu370-x8/</loc></url>
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/chip/cambricon-mlu590/</loc></url>
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/chip/huawei-ascend-910b/</loc></url>
@@ -16,6 +17,7 @@
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/chips/</loc></url>
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/compare/</loc></url>
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/dataset/</loc></url>
+  <url><loc>https://xiexiushen.github.io/mapmatch-health-check/guide/</loc></url>
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/method/</loc></url>
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/operators/</loc></url>
   <url><loc>https://xiexiushen.github.io/mapmatch-health-check/sources/</loc></url>

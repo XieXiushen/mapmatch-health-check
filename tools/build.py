@@ -29,7 +29,8 @@ AI_BOTS = ["GPTBot", "ChatGPT-User", "ClaudeBot", "Claude-Web", "CCBot",
 SEO_BOTS = ["AhrefsBot", "SemrushBot", "MJ12Bot", "DotBot", "BLEXBot"]
 # 站根相对路径（生成时按深度转相对链接）
 NAV = [("", "首页"), ("chips/", "芯片卡片"), ("compare/", "型号对比"), ("stacks/", "软件栈"),
-       ("operators/", "算子生态"), ("verdict/", "结论"), ("dataset/", "数据集"),
+       ("operators/", "算子生态"), ("verdict/", "结论"), ("guide/", "决策指南"),
+       ("changelog/", "变更记录"), ("dataset/", "数据集"),
        ("sources/", "来源"), ("method/", "方法")]
 FIELD_LABEL = {
     "vendor": "厂商", "series": "产品系列", "model": "型号", "category": "定位",
@@ -395,7 +396,8 @@ def main():
           "<li>校验：<code>tools/validate.py</code>（详见下）。</li>"
           "<li>渲染：<code>tools/build.py</code> 仅渲染通过校验的卡片。</li></ol>",
           "<h2>校验规则</h2><p>R1 结构(≥25 字段且六键齐全)；R2 非空；R3 日期格式；"
-          "R4 置信枚举；R5 来源可追溯(source_url 命中 sources.json 且 raw/&lt;slug&gt;.html 存在)；"
+          "R4 置信枚举；R5 来源可追溯(source_url 命中 sources.json 且 raw/&lt;slug&gt;.* 归档存在)；"
+          "R8 来源分级(source_tier ∈ T1/T2/T3)；R9 铁律(verified 必须有 T1 官方来源)；R10 时效(字段级 last_verified)；"
           "R6 数字字段必须带单位；R7 冲突登记完整且 conflict_with 可追溯。</p>"
           "<p class=\"warn\">边界：校验器保证“已登记项的完整与可追溯”，不保证“冲突发现的覆盖度”——"
           "后者依赖人工检索登记，属已知局限。</p>",
@@ -485,6 +487,11 @@ def main():
         rb += ["User-agent: %s" % b, "Disallow: /"]
     rb += ["", "Sitemap: %s/sitemap.xml" % BASE, ""]
     write("robots.txt", "\n".join(rb))
+
+    # --- R44 补丁（P6-P10 / D1-D5）：新增 /guide/、/changelog/ 并做全站后处理 ---
+    # 确定性：后处理只做静态注入（CSS/横幅/徽标/交互），无时间戳、无网络、无外部依赖。
+    import r44 as _r44
+    pages = sorted(set(pages) | set(_r44.apply(SITE, write, page, crumbs, e, R)))
 
     # sitemap.xml（<loc> 条数 = 实际页面树；对外绝对 URL 用全量前缀 SITE_URL）
     sm = ["<?xml version=\"1.0\" encoding=\"UTF-8\"?>",

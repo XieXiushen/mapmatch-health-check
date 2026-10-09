@@ -8,7 +8,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "自研通用 GPU 架构（自研指令集，支持标量/矢量/张量运算）"
+      "value": "自研通用 GPU 架构（自研指令集，支持标量/矢量/张量运算）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "bf16_tflops": {
       "confidence": "unverified",
@@ -16,7 +18,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "category": {
       "confidence": "single-source",
@@ -24,15 +28,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "训练/推理（通用 GPU，训推通用）"
+      "value": "训练/推理（通用 GPU，训推通用）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "certification": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "KCC-V100X 芯片已入安全可靠 I 级（天垓100 本身未单列）"
+      "value": "KCC-V100X 芯片已入安全可靠 I 级（天垓100 本身未单列）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "cuda_compat": {
       "confidence": "single-source",
@@ -40,7 +48,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "兼容国际主流 GPU 通用计算模型，支持原生算子"
+      "value": "兼容国际主流 GPU 通用计算模型，支持原生算子",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "custom_op": {
       "confidence": "single-source",
@@ -48,7 +58,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "提供丰富编程接口拓展，支持客户自定义开发"
+      "value": "提供丰富编程接口拓展，支持客户自定义开发",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "form_factor": {
       "confidence": "single-source",
@@ -56,7 +68,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "加速卡（PCIe Gen4 x16）"
+      "value": "加速卡（PCIe Gen4 x16）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "fp16_tflops": {
       "confidence": "single-source",
@@ -64,7 +78,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "TFLOPS",
-      "value": "128"
+      "value": "128",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp32_tflops": {
       "confidence": "unverified",
@@ -72,7 +88,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "fp64_tflops": {
       "confidence": "unverified",
@@ -80,7 +98,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "fp8_tflops": {
       "confidence": "unverified",
@@ -88,7 +108,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "framework_support": {
       "confidence": "single-source",
@@ -96,7 +118,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "支持国内外主流深度学习框架与加速库"
+      "value": "支持国内外主流深度学习框架与加速库",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "host_interface": {
       "confidence": "single-source",
@@ -104,7 +128,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "PCIe Gen4.0 x16"
+      "value": "PCIe Gen4.0 x16",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "inference_engine": {
       "confidence": "unverified",
@@ -112,7 +138,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "instruction_set": {
       "confidence": "verified",
@@ -120,7 +148,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "自研指令集，全方位支持标量、矢量、张量运算"
+      "value": "自研指令集，全方位支持标量、矢量、张量运算",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "int16_tops": {
       "confidence": "unverified",
@@ -128,7 +158,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "int8_tops": {
       "confidence": "single-source",
@@ -136,7 +168,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "TOPS",
-      "value": "256"
+      "value": "256",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "interconnect_bw": {
       "confidence": "single-source",
@@ -144,7 +178,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "GB/s",
-      "value": "64（片间互联，双向）"
+      "value": "64（片间互联，双向）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "launch_date": {
       "confidence": "unverified",
@@ -152,7 +188,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "memory_bandwidth": {
       "confidence": "unverified",
@@ -160,7 +198,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "memory_capacity": {
       "confidence": "single-source",
@@ -168,7 +208,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "GB",
-      "value": "32"
+      "value": "32",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "memory_type": {
       "confidence": "single-source",
@@ -176,7 +218,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "HBM2"
+      "value": "HBM2",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "migration_tool": {
       "confidence": "single-source",
@@ -184,7 +228,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "应用迁移成本低、无需重新开发；适配 x86/Arm/MIPS 等多类 CPU 架构"
+      "value": "应用迁移成本低、无需重新开发；适配 x86/Arm/MIPS 等多类 CPU 架构",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "missing_ops": {
       "confidence": "unverified",
@@ -192,7 +238,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "model": {
       "confidence": "single-source",
@@ -200,7 +248,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
       "unit": "n/a",
-      "value": "天垓100（BI-V100）"
+      "value": "天垓100（BI-V100）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_coverage": {
       "confidence": "single-source",
@@ -208,7 +258,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "种",
-      "value": "支持 200 余种 AI 模型（数量持续增加）"
+      "value": "支持 200 余种 AI 模型（数量持续增加）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "operator_lib": {
       "confidence": "single-source",
@@ -216,7 +268,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "自研核心算子库 + 高性能函数库（智铠/天垓同源）"
+      "value": "自研核心算子库 + 高性能函数库（智铠/天垓同源）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "process_node": {
       "confidence": "unverified",
@@ -224,7 +278,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "programming_model": {
       "confidence": "single-source",
@@ -232,7 +288,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "通用 GPU 编程模型（自研指令集）"
+      "value": "通用 GPU 编程模型（自研指令集）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "series": {
       "confidence": "single-source",
@@ -240,7 +298,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "天垓（通用 GPU 架构，BI-V100）"
+      "value": "天垓（通用 GPU 架构，BI-V100）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "software_stack": {
       "confidence": "single-source",
@@ -248,7 +308,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "n/a",
-      "value": "自研软件栈（核心 IP/系统架构/指令集/核心算子均由天数团队开发）"
+      "value": "自研软件栈（核心 IP/系统架构/指令集/核心算子均由天数团队开发）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "target_workload": {
       "confidence": "single-source",
@@ -256,7 +318,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "通用计算/科学计算/大模型训练（百亿级参数已验证）"
+      "value": "通用计算/科学计算/大模型训练（百亿级参数已验证）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "tdp": {
       "confidence": "single-source",
@@ -264,15 +328,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
       "unit": "W",
-      "value": "250"
+      "value": "250",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "vendor": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "上海天数智芯半导体股份有限公司"
+      "value": "上海天数智芯半导体股份有限公司",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     }
   },
   "keywords": [

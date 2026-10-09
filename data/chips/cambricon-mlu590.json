@@ -8,7 +8,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "自研 MLU 架构（Chiplet）"
+      "value": "自研 MLU 架构（Chiplet）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "bf16_tflops": {
       "confidence": "unverified",
@@ -16,7 +18,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "category": {
       "confidence": "single-source",
@@ -24,15 +28,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
       "unit": "n/a",
-      "value": "训练/推理（现役主力）"
+      "value": "训练/推理（现役主力）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "certification": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "本批次安全可靠 I 级名单未含寒武纪"
+      "value": "本批次安全可靠 I 级名单未含寒武纪",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "cuda_compat": {
       "confidence": "single-source",
@@ -40,7 +48,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "自研 Bangware 软件栈实现 CUDA 兼容"
+      "value": "自研 Bangware 软件栈实现 CUDA 兼容",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "custom_op": {
       "confidence": "unverified",
@@ -48,7 +58,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "form_factor": {
       "confidence": "unverified",
@@ -56,23 +68,29 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp16_tflops": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [
         {
           "note": "部分来源标注 345 TFLOPS",
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "TFLOPS",
-          "value": "345"
+          "value": "345",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "TFLOPS",
-      "value": "256"
+      "value": "256",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp32_tflops": {
       "confidence": "single-source",
@@ -81,13 +99,17 @@
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "TFLOPS",
-          "value": "80"
+          "value": "80",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "TFLOPS",
-      "value": "约64"
+      "value": "约64",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp64_tflops": {
       "confidence": "unverified",
@@ -95,7 +117,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp8_tflops": {
       "confidence": "unverified",
@@ -103,7 +127,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "framework_support": {
       "confidence": "unverified",
@@ -111,7 +137,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "host_interface": {
       "confidence": "unverified",
@@ -119,7 +147,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "inference_engine": {
       "confidence": "unverified",
@@ -127,7 +157,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "instruction_set": {
       "confidence": "unverified",
@@ -135,7 +167,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "int16_tops": {
       "confidence": "unverified",
@@ -143,15 +177,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "int8_tops": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "TOPS",
-      "value": "512"
+      "value": "512",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "interconnect_bw": {
       "confidence": "unverified",
@@ -159,7 +197,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "launch_date": {
       "confidence": "single-source",
@@ -167,7 +207,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
       "unit": "n/a",
-      "value": "2026-07 官方正式商用"
+      "value": "2026-07 官方正式商用",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_bandwidth": {
       "confidence": "single-source",
@@ -177,29 +219,37 @@
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
           "unit": "GB/s",
-          "value": "2700"
+          "value": "2700",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "GB/s",
-      "value": "约2000"
+      "value": "约2000",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_capacity": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "GB",
-      "value": "96"
+      "value": "96",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_type": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "HBM2e"
+      "value": "HBM2e",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "migration_tool": {
       "confidence": "unverified",
@@ -207,7 +257,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "BANG C 迁移路径"
+      "value": "BANG C 迁移路径",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "missing_ops": {
       "confidence": "unverified",
@@ -215,15 +267,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "model": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "思元590（MLU590）"
+      "value": "思元590（MLU590）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_coverage": {
       "confidence": "unverified",
@@ -231,7 +287,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_lib": {
       "confidence": "single-source",
@@ -239,15 +297,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "CNBL / CNCL（NeuWare SDK 内）"
+      "value": "CNBL / CNCL（NeuWare SDK 内）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "process_node": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "7nm + Chiplet 封装"
+      "value": "7nm + Chiplet 封装",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "programming_model": {
       "confidence": "single-source",
@@ -255,7 +317,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "BANG C 2.0（590 支持 CNN/Transformer 双优化）"
+      "value": "BANG C 2.0（590 支持 CNN/Transformer 双优化）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "series": {
       "confidence": "single-source",
@@ -263,7 +327,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "思元 MLU"
+      "value": "思元 MLU",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "software_stack": {
       "confidence": "single-source",
@@ -271,7 +337,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "Bangware 软件栈 + NeuWare SDK"
+      "value": "Bangware 软件栈 + NeuWare SDK",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "target_workload": {
       "confidence": "single-source",
@@ -279,7 +347,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "大规模 AI 训练/推理（2025 年出货约 11.6 万颗）"
+      "value": "大规模 AI 训练/推理（2025 年出货约 11.6 万颗）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "tdp": {
       "confidence": "unverified",
@@ -287,15 +357,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "vendor": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
       "unit": "n/a",
-      "value": "寒武纪（Cambricon）"
+      "value": "寒武纪（Cambricon）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     }
   },
   "keywords": [

@@ -3,12 +3,14 @@
   "field_count": 34,
   "fields": {
     "architecture": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "天数智芯第二代通用 GPU 架构（800 余条通用指令集）"
+      "value": "天数智芯第二代通用 GPU 架构（800 余条通用指令集）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "bf16_tflops": {
       "confidence": "unverified",
@@ -16,7 +18,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "category": {
       "confidence": "single-source",
@@ -24,15 +28,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "推理（支持推理及训练一体化）"
+      "value": "推理（支持推理及训练一体化）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "certification": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "KCC-V100X 芯片已入安全可靠 I 级（智铠100 本身未单列）"
+      "value": "KCC-V100X 芯片已入安全可靠 I 级（智铠100 本身未单列）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "cuda_compat": {
       "confidence": "single-source",
@@ -40,7 +48,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "延续天垓100 生态兼容策略，开箱即用"
+      "value": "延续天垓100 生态兼容策略，开箱即用",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "custom_op": {
       "confidence": "single-source",
@@ -48,7 +58,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "便于客户自定义开发（灵活支持各种算法模型）"
+      "value": "便于客户自定义开发（灵活支持各种算法模型）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "form_factor": {
       "confidence": "single-source",
@@ -56,7 +68,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "产品卡（视频解码 + 推理）"
+      "value": "产品卡（视频解码 + 推理）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "fp16_tflops": {
       "confidence": "single-source",
@@ -64,7 +78,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "TFLOPS",
-      "value": "96"
+      "value": "96",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "fp32_tflops": {
       "confidence": "single-source",
@@ -72,7 +88,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "TFLOPS",
-      "value": "24"
+      "value": "24",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "fp64_tflops": {
       "confidence": "unverified",
@@ -80,7 +98,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "fp8_tflops": {
       "confidence": "unverified",
@@ -88,7 +108,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "framework_support": {
       "confidence": "single-source",
@@ -96,7 +118,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "支持国内外主流深度学习开发框架"
+      "value": "支持国内外主流深度学习开发框架",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "host_interface": {
       "confidence": "unverified",
@@ -104,7 +128,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "inference_engine": {
       "confidence": "unverified",
@@ -112,7 +138,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "instruction_set": {
       "confidence": "single-source",
@@ -120,7 +148,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "第二代通用 GPU 架构，800 余条通用指令集"
+      "value": "第二代通用 GPU 架构，800 余条通用指令集",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "int16_tops": {
       "confidence": "unverified",
@@ -128,7 +158,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "int8_tops": {
       "confidence": "single-source",
@@ -136,7 +168,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "TOPS",
-      "value": "384"
+      "value": "384",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "interconnect_bw": {
       "confidence": "unverified",
@@ -144,7 +178,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "launch_date": {
       "confidence": "unverified",
@@ -152,7 +188,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "memory_bandwidth": {
       "confidence": "single-source",
@@ -160,7 +198,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "GB/s",
-      "value": "800（理论峰值）"
+      "value": "800（理论峰值）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "memory_capacity": {
       "confidence": "unverified",
@@ -168,7 +208,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "memory_type": {
       "confidence": "unverified",
@@ -176,7 +218,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "migration_tool": {
       "confidence": "single-source",
@@ -184,7 +228,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "延续天垓100 开发易迁移特点"
+      "value": "延续天垓100 开发易迁移特点",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "missing_ops": {
       "confidence": "unverified",
@@ -192,7 +238,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "model": {
       "confidence": "single-source",
@@ -200,7 +248,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "智铠100"
+      "value": "智铠100",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "operator_coverage": {
       "confidence": "unverified",
@@ -208,7 +258,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "operator_lib": {
       "confidence": "single-source",
@@ -216,7 +268,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "高性能函数库（丰富编程接口拓展）"
+      "value": "高性能函数库（丰富编程接口拓展）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "process_node": {
       "confidence": "unverified",
@@ -224,15 +278,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "programming_model": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "通用 GPU 编程（800 余条通用指令集）"
+      "value": "通用 GPU 编程（800 余条通用指令集）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "series": {
       "confidence": "single-source",
@@ -240,7 +298,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "智铠（第二代通用 GPU 架构）"
+      "value": "智铠（第二代通用 GPU 架构）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "software_stack": {
       "confidence": "single-source",
@@ -248,7 +308,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "天数智芯自研软件栈（延续天垓100 生态兼容策略）"
+      "value": "天数智芯自研软件栈（延续天垓100 生态兼容策略）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "target_workload": {
       "confidence": "single-source",
@@ -256,7 +318,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "智慧城市/港口/交通/制造/电力/语音/医疗/教育/金融等推理+增量训练"
+      "value": "智慧城市/港口/交通/制造/电力/语音/医疗/教育/金融等推理+增量训练",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "tdp": {
       "confidence": "unverified",
@@ -264,7 +328,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "vendor": {
       "confidence": "single-source",
@@ -272,7 +338,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
-      "value": "上海天数智芯半导体股份有限公司"
+      "value": "上海天数智芯半导体股份有限公司",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     }
   },
   "keywords": [

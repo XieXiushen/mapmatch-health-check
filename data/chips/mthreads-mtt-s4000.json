@@ -8,7 +8,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "曲院（MUSA 统一架构）"
+      "value": "曲院（MUSA 统一架构）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "bf16_tflops": {
       "confidence": "verified",
@@ -16,7 +18,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "TFLOPS",
-      "value": "100"
+      "value": "100",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "category": {
       "confidence": "single-source",
@@ -24,15 +28,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "训练/推理/图形渲染（全功能元计算卡）"
+      "value": "训练/推理/图形渲染（全功能元计算卡）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "certification": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "PH100 已入安全可靠 I 级（S4000 本身未单列）"
+      "value": "PH100 已入安全可靠 I 级（S4000 本身未单列）",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     },
     "cuda_compat": {
       "confidence": "single-source",
@@ -40,7 +48,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
       "unit": "n/a",
-      "value": "MUSA/MUDA CUDA 兼容后端（支持 CUDA 兼容模式运行）"
+      "value": "MUSA/MUDA CUDA 兼容后端（支持 CUDA 兼容模式运行）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "custom_op": {
       "confidence": "unverified",
@@ -48,7 +58,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "form_factor": {
       "confidence": "single-source",
@@ -56,7 +68,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "全功能加速卡（外接供电，标准 CPU-8Pin）"
+      "value": "全功能加速卡（外接供电，标准 CPU-8Pin）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "fp16_tflops": {
       "confidence": "verified",
@@ -64,7 +78,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "TFLOPS",
-      "value": "50"
+      "value": "50",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "fp32_tflops": {
       "confidence": "verified",
@@ -74,13 +90,17 @@
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "TFLOPS",
-          "value": "30"
+          "value": "30",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "TFLOPS",
-      "value": "25"
+      "value": "25",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "fp64_tflops": {
       "confidence": "unverified",
@@ -88,7 +108,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "fp8_tflops": {
       "confidence": "unverified",
@@ -96,7 +118,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "framework_support": {
       "confidence": "verified",
@@ -104,7 +128,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "DeepSpeed / ColossalAI / Megatron / ONNXRuntime-MUSA / Llama.cpp-MUSA"
+      "value": "DeepSpeed / ColossalAI / Megatron / ONNXRuntime-MUSA / Llama.cpp-MUSA",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "host_interface": {
       "confidence": "single-source",
@@ -114,13 +140,17 @@
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
-          "value": "PCIe 4.0"
+          "value": "PCIe 4.0",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "PCIe 5.0 x16"
+      "value": "PCIe 5.0 x16",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "inference_engine": {
       "confidence": "single-source",
@@ -128,7 +158,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "vLLM-MUSA / SGLang-MUSA / ONNXRuntime-MUSA / Llama.cpp-MUSA（M1000 同源生态）"
+      "value": "vLLM-MUSA / SGLang-MUSA / ONNXRuntime-MUSA / Llama.cpp-MUSA（M1000 同源生态）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "instruction_set": {
       "confidence": "unverified",
@@ -136,7 +168,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "int16_tops": {
       "confidence": "unverified",
@@ -144,7 +178,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "int8_tops": {
       "confidence": "verified",
@@ -152,7 +188,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "TOPS",
-      "value": "200"
+      "value": "200",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "interconnect_bw": {
       "confidence": "unverified",
@@ -160,7 +198,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "launch_date": {
       "confidence": "unverified",
@@ -168,7 +208,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "memory_bandwidth": {
       "confidence": "verified",
@@ -176,7 +218,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "GB/s",
-      "value": "768"
+      "value": "768",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "memory_capacity": {
       "confidence": "verified",
@@ -184,7 +228,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "GB",
-      "value": "48"
+      "value": "48",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "memory_type": {
       "confidence": "verified",
@@ -192,7 +238,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "GDDR6"
+      "value": "GDDR6",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "migration_tool": {
       "confidence": "unverified",
@@ -200,7 +248,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "missing_ops": {
       "confidence": "unverified",
@@ -208,7 +258,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "model": {
       "confidence": "verified",
@@ -216,7 +268,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "MTT S4000"
+      "value": "MTT S4000",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "operator_coverage": {
       "confidence": "unverified",
@@ -224,7 +278,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "operator_lib": {
       "confidence": "unverified",
@@ -232,7 +288,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开"
+      "value": "未公开",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "process_node": {
       "confidence": "unverified",
@@ -242,13 +300,17 @@
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/gpu/moore-threads",
           "unit": "n/a",
-          "value": "12nm"
+          "value": "12nm",
+          "source_tier": "T3",
+          "last_verified": "2026-10-09"
         }
       ],
       "source_date": "2026-10-09",
       "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s4000",
       "unit": "n/a",
-      "value": "未公开（推测 7nm/6nm）"
+      "value": "未公开（推测 7nm/6nm）",
+      "source_tier": "T3",
+      "last_verified": "2026-10-09"
     },
     "programming_model": {
       "confidence": "single-source",
@@ -256,7 +318,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "MUSA 统一编程模型"
+      "value": "MUSA 统一编程模型",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "series": {
       "confidence": "single-source",
@@ -264,7 +328,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "MTT（MUSA 统一架构）"
+      "value": "MTT（MUSA 统一架构）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "software_stack": {
       "confidence": "verified",
@@ -272,7 +338,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "MUSA 软件栈（面向大规模集群分布式计算优化）"
+      "value": "MUSA 软件栈（面向大规模集群分布式计算优化）",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "target_workload": {
       "confidence": "verified",
@@ -280,7 +348,9 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "n/a",
-      "value": "千亿参数 LLM 预训练/微调/推理 + 图形渲染/多媒体/科学计算"
+      "value": "千亿参数 LLM 预训练/微调/推理 + 图形渲染/多媒体/科学计算",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "tdp": {
       "confidence": "verified",
@@ -288,15 +358,19 @@
       "source_date": "2026-10-09",
       "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
       "unit": "W",
-      "value": "450"
+      "value": "450",
+      "source_tier": "T1",
+      "last_verified": "2026-10-09"
     },
     "vendor": {
-      "confidence": "verified",
+      "confidence": "single-source",
       "conflict_with": [],
       "source_date": "2026-05-26",
       "source_url": "https://www.itsec.gov.cn/aqkkcp/cpgg/202605/t20260526_259396.html",
       "unit": "n/a",
-      "value": "摩尔线程智能科技（北京）股份有限公司"
+      "value": "摩尔线程智能科技（北京）股份有限公司",
+      "source_tier": "T2",
+      "last_verified": "2026-10-09"
     }
   },
   "keywords": [
