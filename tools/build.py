@@ -322,7 +322,8 @@ def main():
           "<a href=\"/dataset/chips.json\"><code>/dataset/chips.json</code></a>，"
           "收录 <b>%d</b> 家厂商 <b>%d</b> 款芯片共 <b>%d</b> 个字段。</p>"
           "<h2>许可</h2><p>%s（<a href=\"%s\">%s</a>）。引用请保留出处与许可。</p>"
-          "<h2>引用格式</h2><pre><code>%s</code></pre><pre><code>%s</code></pre>"
+          "<h2>如何引用</h2><p class=\"muted\">引用格式（文本式 + BibTeX）：</p>"
+          "<pre><code>%s</code></pre><pre><code>%s</code></pre>"
           "<h2>收录型号</h2><ul>%s</ul>" %
           (len(vendors), len(live), total_fields, LICENSE, LICENSE_URL, LICENSE_URL,
            e(cite_txt), e(bib), ds_rows))
@@ -340,7 +341,7 @@ def main():
 
     # r41 GEO 引用层：robots.txt（AI/检索直取器白名单 + 反链采集器拒绝）
     rb = ["# robots.txt — 国产算力站点 r40（r41 GEO 引用层）",
-          "# Allow LLM/retrieval crawlers so the site can be cited（AI 直取器显式放行）",
+          "# Allow LLM crawling for citations（AI/检索直取器显式放行；注释口径见 R41 卡）",
           "User-agent: *", "Allow: /", ""]
     for b in AI_BOTS:
         rb += ["User-agent: %s" % b, "Allow: /"]
