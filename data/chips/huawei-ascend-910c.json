@@ -1,6 +1,6 @@
 {
   "category": "训练/推理（训推一体）",
-  "field_count": 33,
+  "field_count": 34,
   "fields": {
     "architecture": {
       "confidence": "verified",
@@ -127,6 +127,14 @@
       "source_url": "https://docs.sglang.io/platforms/ascend/ascend_npu.html",
       "unit": "n/a",
       "value": "vLLM（vllm-ascend 后端）、SGLang（基于 CANN 9.0.0/9.1.0 镜像）"
+    },
+    "instruction_set": {
+      "confidence": "unverified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+      "unit": "n/a",
+      "value": "未公开"
     },
     "int16_tops": {
       "confidence": "unverified",

@@ -44,11 +44,18 @@ for r, d, fs in os.walk(SITE):
         if f == "index.html":
             pages.append(os.path.join(r, f))
 ext = []
+META_REL = ('rel="canonical"', "rel='canonical'", 'rel="alternate"', "rel='alternate'",
+            'rel="amphtml"', "rel='amphtml'", 'property="og:url"', "property='og:url'")
 for p in pages:
     t = open(p, encoding="utf-8").read()
     for tag in ("script", "link", "img", "iframe"):
-        for m in re.findall(r'<%s[^>]*(?:src|href)="(https?://[^"]+)"' % tag, t):
-            ext.append((os.path.relpath(p, SITE), tag + ":" + m))
+        for seg in re.findall(r'<%s\b[^>]*>' % tag, t):
+            # canonical / alternate / og:url 等属元数据，按规范必须是绝对 URL，不是运行时依赖
+            if any(k in seg for k in META_REL):
+                continue
+            m = re.search(r'(?:src|href)="(https?://[^"]+)"', seg)
+            if m:
+                ext.append((os.path.relpath(p, SITE), tag + ":" + m.group(1)))
     if re.search(r"\bfetch\s*\(|XMLHttpRequest|new\s+WebSocket", t):
         ext.append((os.path.relpath(p, SITE), "JS-BACKEND-CALL"))
 

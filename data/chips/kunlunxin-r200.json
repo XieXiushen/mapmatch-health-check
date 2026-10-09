@@ -1,6 +1,6 @@
 {
   "category": "训练/推理",
-  "field_count": 33,
+  "field_count": 34,
   "fields": {
     "architecture": {
       "confidence": "single-source",
@@ -113,6 +113,14 @@
       "source_url": "https://www.kunlunxin.com/product/2873.html",
       "unit": "n/a",
       "value": "vLLM（vLLM-Kunlun 后端）"
+    },
+    "instruction_set": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.kunlunxin.com/product/2873.html",
+      "unit": "n/a",
+      "value": "通用和专用指令集融合（自研 XPU-R 架构）"
     },
     "int16_tops": {
       "confidence": "single-source",

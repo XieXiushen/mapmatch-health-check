@@ -1,6 +1,6 @@
 {
   "category": "推理（训推一体）",
-  "field_count": 33,
+  "field_count": 34,
   "fields": {
     "architecture": {
       "confidence": "verified",
@@ -113,6 +113,14 @@
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
       "value": "未公开"
+    },
+    "instruction_set": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://docs.d.run/open/hardware/illuvatar",
+      "unit": "n/a",
+      "value": "第二代通用 GPU 架构，800 余条通用指令集"
     },
     "int16_tops": {
       "confidence": "unverified",

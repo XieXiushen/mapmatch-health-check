@@ -1,9 +1,9 @@
 {
-  "built": "r40-v0.2-geo",
+  "built": "r42-v0.3-relpath",
   "chips": [
     {
       "category": "训练/推理",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "single-source",
@@ -116,6 +116,14 @@
           "conflict_with": [],
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+          "unit": "n/a",
+          "value": "未公开"
+        },
+        "instruction_set": {
+          "confidence": "unverified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-370/",
           "unit": "n/a",
           "value": "未公开"
         },
@@ -300,7 +308,7 @@
     },
     {
       "category": "训练/推理（现役主力）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "single-source",
@@ -426,6 +434,14 @@
           "conflict_with": [],
           "source_date": "2026-10-09",
           "source_url": "https://mirrorfrog.com/docs/asic/cambricon-mlu/",
+          "unit": "n/a",
+          "value": "未公开"
+        },
+        "instruction_set": {
+          "confidence": "unverified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/others/cambricon-mlu-590/",
           "unit": "n/a",
           "value": "未公开"
         },
@@ -614,7 +630,7 @@
     },
     {
       "category": "训练/推理（训推一体）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "single-source",
@@ -735,6 +751,14 @@
           "source_url": "https://docs.vllm.ai/projects/ascend/en/main/index.html",
           "unit": "n/a",
           "value": "vLLM（vllm-ascend 后端）"
+        },
+        "instruction_set": {
+          "confidence": "unverified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910b/",
+          "unit": "n/a",
+          "value": "未公开"
         },
         "int16_tops": {
           "confidence": "unverified",
@@ -953,7 +977,7 @@
     },
     {
       "category": "训练/推理（训推一体）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "verified",
@@ -1080,6 +1104,14 @@
           "source_url": "https://docs.sglang.io/platforms/ascend/ascend_npu.html",
           "unit": "n/a",
           "value": "vLLM（vllm-ascend 后端）、SGLang（基于 CANN 9.0.0/9.1.0 镜像）"
+        },
+        "instruction_set": {
+          "confidence": "unverified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/huawei/ascend-910c/",
+          "unit": "n/a",
+          "value": "未公开"
         },
         "int16_tops": {
           "confidence": "unverified",
@@ -1288,7 +1320,7 @@
     },
     {
       "category": "训练/推理（GPGPU）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "single-source",
@@ -1417,6 +1449,14 @@
           "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
           "unit": "n/a",
           "value": "未公开"
+        },
+        "instruction_set": {
+          "confidence": "single-source",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+          "unit": "n/a",
+          "value": "x86 指令集兼容（自研 GPGPU，底层指令集兼容 x86）"
         },
         "int16_tops": {
           "confidence": "unverified",
@@ -1604,7 +1644,7 @@
     },
     {
       "category": "训练/推理（通用 GPU）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "verified",
@@ -1717,6 +1757,14 @@
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
+        },
+        "instruction_set": {
+          "confidence": "verified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+          "unit": "n/a",
+          "value": "自研指令集，全方位支持标量、矢量、张量运算"
         },
         "int16_tops": {
           "confidence": "unverified",
@@ -1896,7 +1944,7 @@
     },
     {
       "category": "训练/推理（通用 GPU，升级版）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "single-source",
@@ -2004,6 +2052,14 @@
           "value": "PCIe Gen4（推测）"
         },
         "inference_engine": {
+          "confidence": "unverified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/others/iluvatar-tg150/",
+          "unit": "n/a",
+          "value": "未公开"
+        },
+        "instruction_set": {
           "confidence": "unverified",
           "conflict_with": [],
           "source_date": "2026-10-09",
@@ -2189,7 +2245,7 @@
     },
     {
       "category": "推理（训推一体）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "verified",
@@ -2302,6 +2358,14 @@
           "source_url": "https://docs.d.run/open/hardware/illuvatar",
           "unit": "n/a",
           "value": "未公开"
+        },
+        "instruction_set": {
+          "confidence": "single-source",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://docs.d.run/open/hardware/illuvatar",
+          "unit": "n/a",
+          "value": "第二代通用 GPU 架构，800 余条通用指令集"
         },
         "int16_tops": {
           "confidence": "unverified",
@@ -2481,7 +2545,7 @@
     },
     {
       "category": "训练/推理（OAM 旗舰）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "unverified",
@@ -2595,6 +2659,14 @@
           "source_url": "https://www.kunlunxin.com/product/2873.html",
           "unit": "n/a",
           "value": "vLLM（vLLM-Kunlun 后端）"
+        },
+        "instruction_set": {
+          "confidence": "unverified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/others/kunlun-p800/",
+          "unit": "n/a",
+          "value": "未公开"
         },
         "int16_tops": {
           "confidence": "unverified",
@@ -2773,7 +2845,7 @@
     },
     {
       "category": "训练/推理",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "single-source",
@@ -2886,6 +2958,14 @@
           "source_url": "https://www.kunlunxin.com/product/2873.html",
           "unit": "n/a",
           "value": "vLLM（vLLM-Kunlun 后端）"
+        },
+        "instruction_set": {
+          "confidence": "verified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://www.kunlunxin.com/product/2873.html",
+          "unit": "n/a",
+          "value": "通用和专用指令集融合（自研 XPU-R 架构）"
         },
         "int16_tops": {
           "confidence": "single-source",
@@ -3064,7 +3144,7 @@
     },
     {
       "category": "训练/推理/图形（全功能元计算卡）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "verified",
@@ -3193,6 +3273,14 @@
           "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "vLLM-MUSA / SGLang-MUSA / ONNXRuntime-MUSA / Llama.cpp-MUSA（M1000 同源生态）"
+        },
+        "instruction_set": {
+          "confidence": "unverified",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://docs.mthreads.com/s4000/s4000-doc-online/product_specifications/",
+          "unit": "n/a",
+          "value": "未公开"
         },
         "int16_tops": {
           "confidence": "unverified",
@@ -3382,7 +3470,7 @@
     },
     {
       "category": "训练/推理（训推一体，旗舰）",
-      "field_count": 33,
+      "field_count": 34,
       "fields": {
         "architecture": {
           "confidence": "single-source",
@@ -3495,6 +3583,14 @@
           "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
           "unit": "n/a",
           "value": "SGLang-MUSA-M1000 / vLLM-MUSA-M1000 / ONNXRuntime-MUSA-M1000"
+        },
+        "instruction_set": {
+          "confidence": "single-source",
+          "conflict_with": [],
+          "source_date": "2026-10-09",
+          "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+          "unit": "n/a",
+          "value": "SIMT 指令集，自研（类 PTX）"
         },
         "int16_tops": {
           "confidence": "unverified",

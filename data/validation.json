@@ -12,7 +12,7 @@
    "vendor": "寒武纪",
    "model_slug": "mlu370-x8",
    "vendor_slug": "cambricon",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -22,7 +22,7 @@
    "vendor": "寒武纪",
    "model_slug": "mlu590",
    "vendor_slug": "cambricon",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -32,7 +32,7 @@
    "vendor": "华为",
    "model_slug": "ascend-910b",
    "vendor_slug": "huawei",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -42,7 +42,7 @@
    "vendor": "华为",
    "model_slug": "ascend-910c",
    "vendor_slug": "huawei",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -52,7 +52,7 @@
    "vendor": "海光",
    "model_slug": "dcu-k100",
    "vendor_slug": "hygon",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -62,7 +62,7 @@
    "vendor": "天数智芯",
    "model_slug": "tiangai-100",
    "vendor_slug": "iluvatar",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -72,7 +72,7 @@
    "vendor": "天数智芯",
    "model_slug": "tiangai-150",
    "vendor_slug": "iluvatar",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -82,7 +82,7 @@
    "vendor": "天数智芯",
    "model_slug": "zhikai-100",
    "vendor_slug": "iluvatar",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -92,7 +92,7 @@
    "vendor": "昆仑芯",
    "model_slug": "p800",
    "vendor_slug": "kunlunxin",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -102,7 +102,7 @@
    "vendor": "昆仑芯",
    "model_slug": "r200",
    "vendor_slug": "kunlunxin",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -112,7 +112,7 @@
    "vendor": "摩尔线程",
    "model_slug": "mtt-s4000",
    "vendor_slug": "mthreads",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   },
@@ -122,7 +122,7 @@
    "vendor": "摩尔线程",
    "model_slug": "mtt-s5000",
    "vendor_slug": "mthreads",
-   "field_count": 33,
+   "field_count": 34,
    "ok": true,
    "errors": []
   }

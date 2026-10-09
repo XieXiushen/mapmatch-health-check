@@ -1,6 +1,6 @@
 {
   "category": "训练/推理（训推一体，旗舰）",
-  "field_count": 33,
+  "field_count": 34,
   "fields": {
     "architecture": {
       "confidence": "single-source",
@@ -113,6 +113,14 @@
       "source_url": "https://docs.mthreads.com/s5000/s5000-doc-online/product_specifications/",
       "unit": "n/a",
       "value": "SGLang-MUSA-M1000 / vLLM-MUSA-M1000 / ONNXRuntime-MUSA-M1000"
+    },
+    "instruction_set": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/moore-threads-mtt-s5000",
+      "unit": "n/a",
+      "value": "SIMT 指令集，自研（类 PTX）"
     },
     "int16_tops": {
       "confidence": "unverified",

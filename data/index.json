@@ -16,7 +16,7 @@
    "id": "cambricon-mlu370-x8",
    "vendor": "寒武纪",
    "model": "思元370-X8",
-   "url": "/chip/cambricon-mlu370-x8/",
+   "url": "chip/cambricon-mlu370-x8/",
    "category": "训练/推理",
    "software_stack": "Bangware 软件栈 + NeuWare SDK（CNRT 运行时 + CNBL/CNCL 算子库 + 编译器）",
    "certification": "本批次安全可靠 I 级名单未含寒武纪"
@@ -25,7 +25,7 @@
    "id": "cambricon-mlu590",
    "vendor": "寒武纪",
    "model": "思元590",
-   "url": "/chip/cambricon-mlu590/",
+   "url": "chip/cambricon-mlu590/",
    "category": "训练/推理（现役主力）",
    "software_stack": "Bangware 软件栈 + NeuWare SDK",
    "certification": "本批次安全可靠 I 级名单未含寒武纪"
@@ -34,7 +34,7 @@
    "id": "huawei-ascend-910b",
    "vendor": "华为",
    "model": "昇腾910B",
-   "url": "/chip/huawei-ascend-910b/",
+   "url": "chip/huawei-ascend-910b/",
    "category": "训练/推理",
    "software_stack": "CANN（昇腾异构计算架构）",
    "certification": "昇腾910 已入安全可靠 I 级（同系列，910B 未单列）"
@@ -43,7 +43,7 @@
    "id": "huawei-ascend-910c",
    "vendor": "华为",
    "model": "昇腾910C",
-   "url": "/chip/huawei-ascend-910c/",
+   "url": "chip/huawei-ascend-910c/",
    "category": "训练/推理（双 die 封装训推一体）",
    "software_stack": "CANN（昇腾异构计算架构）",
    "certification": "同厂商型号已入安全可靠 I 级（昇腾910、昇腾310）；910C 本身未单列"
@@ -52,7 +52,7 @@
    "id": "hygon-dcu-k100",
    "vendor": "海光",
    "model": "海光DCU K100",
-   "url": "/chip/hygon-dcu-k100/",
+   "url": "chip/hygon-dcu-k100/",
    "category": "训练/推理（GPGPU）",
    "software_stack": "DTK 3.0（兼容 ROCm 生态）",
    "certification": "DCU-3G 已入安全可靠 I 级（K100 本身未单列）"
@@ -61,7 +61,7 @@
    "id": "iluvatar-tiangai-100",
    "vendor": "天数智芯",
    "model": "天垓100",
-   "url": "/chip/iluvatar-tiangai-100/",
+   "url": "chip/iluvatar-tiangai-100/",
    "category": "训练/推理（通用 GPU，训推通用）",
    "software_stack": "自研软件栈（核心 IP/系统架构/指令集/核心算子均由天数团队开发）",
    "certification": "KCC-V100X 芯片已入安全可靠 I 级（天垓100 本身未单列）"
@@ -70,7 +70,7 @@
    "id": "iluvatar-tiangai-150",
    "vendor": "天数智芯",
    "model": "天垓150",
-   "url": "/chip/iluvatar-tiangai-150/",
+   "url": "chip/iluvatar-tiangai-150/",
    "category": "训练/推理（升级版通用 GPU）",
    "software_stack": "天数智芯自研软件栈（与天垓100 同源）",
    "certification": "KCC-V100X 芯片已入安全可靠 I 级（天垓150 本身未单列）"
@@ -79,7 +79,7 @@
    "id": "iluvatar-zhikai-100",
    "vendor": "天数智芯",
    "model": "智铠100",
-   "url": "/chip/iluvatar-zhikai-100/",
+   "url": "chip/iluvatar-zhikai-100/",
    "category": "推理（支持推理及训练一体化）",
    "software_stack": "天数智芯自研软件栈（延续天垓100 生态兼容策略）",
    "certification": "KCC-V100X 芯片已入安全可靠 I 级（智铠100 本身未单列）"
@@ -88,7 +88,7 @@
    "id": "kunlunxin-p800",
    "vendor": "昆仑芯",
    "model": "昆仑芯P800",
-   "url": "/chip/kunlunxin-p800/",
+   "url": "chip/kunlunxin-p800/",
    "category": "训练/推理（OAM 旗舰）",
    "software_stack": "昆仑芯自研软件栈 + vLLM-Kunlun 后端",
    "certification": "本批次安全可靠 I 级名单未含昆仑芯"
@@ -97,7 +97,7 @@
    "id": "kunlunxin-r200",
    "vendor": "昆仑芯",
    "model": "昆仑芯R200",
-   "url": "/chip/kunlunxin-r200/",
+   "url": "chip/kunlunxin-r200/",
    "category": "训练/推理",
    "software_stack": "昆仑芯自研软件栈 + vLLM 后端（vLLM-Kunlun）",
    "certification": "本批次安全可靠 I 级名单未含昆仑芯"
@@ -106,7 +106,7 @@
    "id": "mthreads-mtt-s4000",
    "vendor": "摩尔线程",
    "model": "MTT S4000",
-   "url": "/chip/mthreads-mtt-s4000/",
+   "url": "chip/mthreads-mtt-s4000/",
    "category": "训练/推理/图形渲染（全功能元计算卡）",
    "software_stack": "MUSA 软件栈（面向大规模集群分布式计算优化）",
    "certification": "PH100 已入安全可靠 I 级（S4000 本身未单列）"
@@ -115,7 +115,7 @@
    "id": "mthreads-mtt-s5000",
    "vendor": "摩尔线程",
    "model": "MTT S5000",
-   "url": "/chip/mthreads-mtt-s5000/",
+   "url": "chip/mthreads-mtt-s5000/",
    "category": "训练/推理（训推一体，旗舰）",
    "software_stack": "MUSA 2.0 软件栈",
    "certification": "PH100 已入安全可靠 I 级（S5000 本身未单列）"

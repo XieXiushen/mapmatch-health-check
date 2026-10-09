@@ -17,10 +17,13 @@ $PY tools/build.py | grep '^BUILD OK' ; echo "run1_exit=$?"
 $PY tools/build.py | grep '^BUILD OK' ; echo "run2_exit=$?"
 $PY tools/idem_check.py | tail -2
 
-echo "== [3/4] 静态回读（本地 http.server，逐页 HTTP 状态） =="
-$PY tools/check_http.py | tail -2
+echo "== [3/5] 静态链接（构建产物无根绝对 href/src，目标文件存在） =="
+$PY tools/check_links.py
 
-echo "== [4/4] 验收核对（对照规格 §五 五条 + r41 GEO 引用层） =="
+echo "== [4/5] 静态回读（本地 http.server，BFS 全站 + 逐页 HTTP 状态） =="
+$PY tools/check_http.py | tail -8
+
+echo "== [5/5] 验收核对（对照规格 §五 五条 + r41 GEO 引用层） =="
 $PY tools/acceptance_check.py | grep -E '^(\[[0-9]\]|    -> )'
 
 echo "== done =="

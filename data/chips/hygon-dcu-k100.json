@@ -1,6 +1,6 @@
 {
   "category": "训练/推理（GPGPU）",
-  "field_count": 33,
+  "field_count": 34,
   "fields": {
     "architecture": {
       "confidence": "single-source",
@@ -129,6 +129,14 @@
       "source_url": "https://mirrorfrog.com/docs/asic/hygon-dcu/",
       "unit": "n/a",
       "value": "未公开"
+    },
+    "instruction_set": {
+      "confidence": "single-source",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://mirrorfrog.com/docs/cards/others/hygon-dcu-k100/",
+      "unit": "n/a",
+      "value": "x86 指令集兼容（自研 GPGPU，底层指令集兼容 x86）"
     },
     "int16_tops": {
       "confidence": "unverified",

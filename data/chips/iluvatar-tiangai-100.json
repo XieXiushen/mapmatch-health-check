@@ -1,6 +1,6 @@
 {
   "category": "训练/推理（通用 GPU）",
-  "field_count": 33,
+  "field_count": 34,
   "fields": {
     "architecture": {
       "confidence": "verified",
@@ -113,6 +113,14 @@
       "source_url": "https://docs.d.run/open/hardware/illuvatar",
       "unit": "n/a",
       "value": "未公开"
+    },
+    "instruction_set": {
+      "confidence": "verified",
+      "conflict_with": [],
+      "source_date": "2026-10-09",
+      "source_url": "https://www.iluvatar.com/productDetails?fullCode=cpjs-yj-xlxl-tg100",
+      "unit": "n/a",
+      "value": "自研指令集，全方位支持标量、矢量、张量运算"
     },
     "int16_tops": {
       "confidence": "unverified",

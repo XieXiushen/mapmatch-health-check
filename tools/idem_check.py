@@ -9,7 +9,8 @@ PY = sys.executable
 def tree():
     out = {}
     for root, dirs, files in os.walk(SITE):
-        if os.sep + "raw" in root or root.endswith(os.sep + "raw"):
+        # raw/ 采集原始快照、temp/ 临时回测输出、tools/ 脚本、.git/ 均非构建产物
+        if {"raw", "temp", "tools", ".git", "__pycache__"} & set(root.replace("\\", "/").split("/")):
             continue
         for f in files:
             rel = os.path.relpath(os.path.join(root, f), SITE).replace("\\", "/")
